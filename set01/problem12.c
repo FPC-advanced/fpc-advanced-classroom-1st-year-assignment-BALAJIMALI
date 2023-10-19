@@ -74,5 +74,6 @@ void output(int n,Complex c[n],Complex result)
 	{
 		printf("%.f+%.fi+",c[i].real,c[i].imaginary);
 	}
-	printf("%.f+%.fi is %.f+%.fi",c[n-1].real,c[n-1].imaginary,result.real)
+	printf("%.f+%.fi is %.f+%.fi",c[n-1].real,c[n-1].imaginary,result.real,result.imaginary);
+	
 }
