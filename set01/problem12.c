@@ -57,5 +57,6 @@ Complex add_add_n_complex
 {
 	int i;
 	Complex sum;
-	sum.
+	sum.imaginary=0;
+	sum.real=0
 }
