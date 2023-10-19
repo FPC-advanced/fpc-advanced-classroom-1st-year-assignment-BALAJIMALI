@@ -61,6 +61,10 @@ Complex add_add_n_complex
 	sum.real=0;
 	for(i=0;i<n;i++)
 	{
-		sum=add_
+		sum=add_complex(sum,c[i]);
+
 	}
+	return sum;
+
 }
+
