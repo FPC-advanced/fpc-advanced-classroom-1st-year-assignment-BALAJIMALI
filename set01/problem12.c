@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 struct _complex {
 	float real,imaginary;
 };
@@ -53,7 +54,7 @@ Complex add_complex(Complex a,Complex b)
 	return sum;
 
 }
-Complex add_add_n_complex
+Complex add_n_complex(int n, Complex c[n])
 {
 	int i;
 	Complex sum;
@@ -75,5 +76,5 @@ void output(int n,Complex c[n],Complex result)
 		printf("%.f+%.fi+",c[i].real,c[i].imaginary);
 	}
 	printf("%.f+%.fi is %.f+%.fi",c[n-1].real,c[n-1].imaginary,result.real,result.imaginary);
-	
+
 }
