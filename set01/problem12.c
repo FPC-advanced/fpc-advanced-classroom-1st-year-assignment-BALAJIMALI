@@ -70,5 +70,8 @@ Complex add_add_n_complex
 void output(int n,Complex c[n],Complex result)
 {
 	int i;
-	for(i=0;i<n-1)
+	for(i=0;i<n-1;i++)
+	{
+		printf("%.f")
+	}
 }
