@@ -67,4 +67,8 @@ Complex add_add_n_complex
 	return sum;
 
 }
-void output(int n,Complex c[n],Complex)
+void output(int n,Complex c[n],Complex result)
+{
+	int i;
+	for(i=0;i<n-1)
+}
