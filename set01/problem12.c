@@ -72,6 +72,6 @@ void output(int n,Complex c[n],Complex result)
 	int i;
 	for(i=0;i<n-1;i++)
 	{
-		printf("%.f")
+		printf("%.f+%.fi+",c)
 	}
 }
