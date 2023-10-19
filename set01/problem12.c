@@ -55,5 +55,7 @@ Complex add_complex(Complex a,Complex b)
 }
 Complex add_add_n_complex
 {
-	
+	int i;
+	Complex sum;
+	sum.
 }
