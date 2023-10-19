@@ -1,6 +1,6 @@
 ﻿**********************
 Windows PowerShell transcript start
-Start time: 20231019162849
+Start time: 20231019162933
 Username: DESKTOP-88B9SFC\Archana
 RunAs User: DESKTOP-88B9SFC\Archana
 Configuration Name: 
@@ -15,10 +15,4 @@ CLRVersion: 4.0.30319.42000
 WSManStackVersion: 3.0
 PSRemotingProtocolVersion: 2.3
 SerializationVersion: 1.1.0.1
-**********************
-Transcript started, output file is c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem12_session.txt
-PS C:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI> Stop-Transcript
-**********************
-Windows PowerShell transcript end
-End time: 20231019162856
 **********************
