@@ -1,0 +1,9 @@
+Breakpoint 1 at 0x40146e: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem01.c, line 7.
+Starting program: c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem01.exe 
+[New Thread 2180.0x2e4c]
+[New Thread 2180.0xe2c]
+
+Breakpoint 1, main () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem01.c:7
+7	    printf("Balaji Mali ");
+Continuing.
+[Inferior 1 (process 2180) exited normally]
