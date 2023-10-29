@@ -19,3 +19,51 @@ SerializationVersion: 1.1.0.1
 Transcript started, output file is c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem05_session.txt
 PS C:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI> gcc -g "c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem05.c" -o "c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem05.exe" 2>&1
 
+PS C:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI> c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem05.exe
+Enter the value:16
+Comman factor = 13
+PS C:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI> gcc -g "c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem05.c" -o "c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem05.exe" 2>&1
+
+PS C:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI> c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem05.exe
+Comman factor = 7
+PS C:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI> gcc -g "c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem05.c" -o "c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem05.exe" 2>&1
+gcc : c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem05.c: In function 'output':
+At line:1 char:1
++ gcc -g "c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-clas ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (c:\Users\DELL\g...ction 'output'::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+
+c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem05.c:34:10: warning: 'return' with a value, in
+function returning void
+   return 0;
+          ^
+c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem05.c:32:6: note: declared here
+ void output(int a, int b, int gcd){
+      ^~~~~~
+
+PS C:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI> c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem05.exe
+Comman factor = 0
+PS C:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI> gcc -g "c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem05.c" -o "c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem05.exe" 2>&1
+gcc : c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem05.c: In function 'output':
+At line:1 char:1
++ gcc -g "c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-clas ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (c:\Users\DELL\g...ction 'output'::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+
+c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem05.c:33:10: warning: 'return' with a value, in
+function returning void
+   return 0;
+          ^
+c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem05.c:31:6: note: declared here
+ void output(int a, int b, int gcd){
+      ^~~~~~
+
+PS C:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI> c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem05.exe
+Comman factor = 13
+PS C:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20231029122443
+**********************
