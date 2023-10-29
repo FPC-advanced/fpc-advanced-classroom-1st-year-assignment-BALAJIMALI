@@ -26,7 +26,7 @@ int find_gcd(int a, int b){
     if(a % i==0 && b & i==0){
         GCD=i;
     }
-    return ;
+    return GCD;
   }
 }
 void output(int a, int b, int gcd){
