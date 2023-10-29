@@ -26,10 +26,10 @@ int find_gcd(int a, int b){
     if(a % i==0 && b & i==0){
         GCD=i;
     }
-    
+    return i;
   }
 }
 void output(int a, int b, int gcd){
-  printf("Comman factor = %d",gcd);
-  return 0;
+  printf("Comman factor = %d/n",a,b,gcd);
+  
 } 
