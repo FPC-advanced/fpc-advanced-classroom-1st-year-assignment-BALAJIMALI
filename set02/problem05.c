@@ -27,7 +27,9 @@ int find_gcd(int a, int b){
         GCD=i;
     }
   }
+  return 0;
 }
 void output(int a, int b, int gcd){
   printf("Comman factor = %d",gcd);
+  return 0;
 } 
