@@ -1,0 +1,4 @@
+No default breakpoint address now.
+Breakpoint 1 at 0x40146e: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem03.c, line 5.
+Breakpoint 2 at 0x4014a0: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem03.c, line 11.
+Breakpoint 3 at 0x4014a8: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem03.c, line 12.
