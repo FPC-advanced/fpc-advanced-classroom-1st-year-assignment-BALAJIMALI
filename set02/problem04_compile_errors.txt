@@ -1,0 +1,9 @@
+Compilation started at 10/30/2023, 10:14:49 AM
+c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem04.c: In function 'sum_composite_numbers':
+c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem04.c:30:13: warning: implicit declaration of function 'is_composite' [-Wimplicit-function-declaration]
+         if (is_composite(a[i])) {
+             ^~~~~~~~~~~~
+C:\Users\DELL\AppData\Local\Temp\ccTfei69.o: In function `sum_composite_numbers':
+c:/Users/DELL/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-BALAJIMALI/set02/problem04.c:30: undefined reference to `is_composite'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 10/30/2023, 10:14:50 AM
