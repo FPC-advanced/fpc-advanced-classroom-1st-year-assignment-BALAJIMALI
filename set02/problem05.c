@@ -24,7 +24,7 @@ int find_gcd(int a, int b){
   for(i=2;i<=a && i<=b;i++)
   {
     if(a % i==0 && b % i==0){
-        break;;
+        return
     }
     i--;
   }
