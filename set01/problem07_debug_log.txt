@@ -2,4 +2,15 @@
 
 GDB debug log -   10/15/2023, 7:28:15 PM
 
-  
+  warning: Source file is more recent than executable.
+15	    scanf("%d", &n);
+16	    return n;
+17	}
+18	
+19	int sum_n_nos(int n) {
+20	    int sum = 0;
+21	    for (int i = 1; i <= n; i++) {
+22	        sum += i;
+23	    }
+24	    return sum;
+Breakpoint 1 at 0x4014b5: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem07.c, line 16.

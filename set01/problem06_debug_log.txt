@@ -2,4 +2,39 @@
 
 GDB debug log -   10/15/2023, 7:27:55 PM
 
-  
+  Breakpoint 1 at 0x4014fd: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem06.c, line 22.
+Breakpoint 2 at 0x401515: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem06.c, line 28.
+Breakpoint 3 at 0x40153f: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem06.c, line 42.
+Breakpoint 4 at 0x401548: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem06.c, line 46.
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x004014fd in input 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem06.c:22
+2       breakpoint     keep y   0x00401515 in compare 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem06.c:28
+3       breakpoint     keep y   0x0040153f in compare 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem06.c:42
+4       breakpoint     keep y   0x00401548 in output 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem06.c:46
+Starting program: C:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01/./problem06.exe 
+[New Thread 7160.0x8c8]
+[New Thread 7160.0x21c4]
+
+Breakpoint 1, input () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem06.c:22
+22	    return x;
+23	}
+main () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem06.c:10
+10	    b=input();
+
+Breakpoint 1, input () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem06.c:22
+22	    return x;
+23	}
+main () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem06.c:11
+11	    c=input();
+
+Breakpoint 1, input () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem06.c:22
+22	    return x;
+A debugging session is active.
+
+	Inferior 1 [process 7160] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5

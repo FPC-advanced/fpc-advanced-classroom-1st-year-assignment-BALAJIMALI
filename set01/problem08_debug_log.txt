@@ -2,4 +2,36 @@
 
 GDB debug log -   10/15/2023, 7:28:31 PM
 
-  
+  Breakpoint 1 at 0x40158a: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem08.c, line 32.
+Undefined command: "b41".  Try "help".
+Breakpoint 2 at 0x4015c3: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem08.c, line 41.
+Breakpoint 3 at 0x4015e1: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem08.c, line 46.
+Undefined command: "ingo".  Try "help".
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x0040158a in input_array 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem08.c:32
+2       breakpoint     keep y   0x004015c3 in sum_even_array 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem08.c:41
+3       breakpoint     keep y   0x004015e1 in output 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem08.c:46
+Starting program: C:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01/./problem08.exe 
+[New Thread 2780.0x32fc]
+[New Thread 2780.0x2f48]
+
+Breakpoint 1, input_array (n=5, a=0x61fedc)
+    at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem08.c:33
+33	}
+main () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem08.c:13
+13	    sum=sum_even_array(n ,a, sum);
+
+Breakpoint 2, sum_even_array (n=5, a=0x61fedc, sum=15)
+    at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem08.c:41
+41	    return sum;
+42	}
+main () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem08.c:14
+14	    output(sum);
+A debugging session is active.
+
+	Inferior 1 [process 2780] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
