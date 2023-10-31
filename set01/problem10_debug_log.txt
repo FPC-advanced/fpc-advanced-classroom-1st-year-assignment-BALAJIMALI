@@ -25,3 +25,21 @@ Num     Type           Disp Enb Address    What
                                            at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem10.c:40
 5       breakpoint     keep y   0x004015c9 in output 
                                            at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem10.c:52
+Starting program: C:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01/./problem10.exe 
+[New Thread 776.0x2a9c]
+[New Thread 776.0x28e0]
+
+Breakpoint 1, main () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem10.c:10
+10	    input_two_strings(string1,string2);
+Undefined command: "2".  Try "help".
+Undefined command: "2".  Try "help".
+Undefined command: "1".  Try "help".
+Undefined command: "1".  Try "help".
+$1 = "\034Cgvüþa\000ñdbv\b\000\000\000=nav#navü^àÈà\022@\000à\022@\000\000\000\000\000\220\032@\000Ðþa\000\bÿa\000Ìÿa\000ÀÌavÈ/ç¾þÿÿÿ\bÿa\000-oav\220\032@\000Pÿa\000ë\032@\000\220\032@\000\000\000\000\000\000`-"
+11	    result=stringcompare(string1,string2);
+"finish" not meaningful in the outermost frame.
+A debugging session is active.
+
+	Inferior 1 [process 776] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
