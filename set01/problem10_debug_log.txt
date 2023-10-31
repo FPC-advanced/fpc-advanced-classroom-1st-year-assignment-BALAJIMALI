@@ -10,3 +10,6 @@
 10	    input_two_strings(string1,string2);
 Breakpoint 1 at 0x401471: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem10.c, line 5.
 Breakpoint 2 at 0x4014c4: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem10.c, line 13.
+Breakpoint 3 at 0x401544: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem10.c, line 30.
+Undefined command: "b40".  Try "help".
+Breakpoint 4 at 0x40158b: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem10.c, line 40.
