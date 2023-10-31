@@ -18,8 +18,9 @@ float input()
 }
 float square_root(float n)
 {
-    float x = n/2;
-    float esplion =   1;
+    float x, espsilon; 
+    x = n/2;
+    
     while ((x * x - n)> esplion ||(n - x *x)>esplion)
 
     {
