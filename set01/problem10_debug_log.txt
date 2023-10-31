@@ -13,3 +13,15 @@ Breakpoint 2 at 0x4014c4: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-a
 Breakpoint 3 at 0x401544: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem10.c, line 30.
 Undefined command: "b40".  Try "help".
 Breakpoint 4 at 0x40158b: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem10.c, line 40.
+Breakpoint 5 at 0x4015c9: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem10.c, line 52.
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x00401471 in main 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem10.c:5
+2       breakpoint     keep y   0x004014c4 in main 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem10.c:13
+3       breakpoint     keep y   0x00401544 in stringcompare 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem10.c:30
+4       breakpoint     keep y   0x0040158b in stringcompare 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem10.c:40
+5       breakpoint     keep y   0x004015c9 in output 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem10.c:52
