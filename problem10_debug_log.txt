@@ -1,0 +1,2 @@
+Undefined command: "gcc".  Try "help".
+Undefined command: "".  Try "help".
