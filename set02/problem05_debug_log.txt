@@ -1,0 +1,114 @@
+Breakpoint 1 at 0x40151a: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem05.c, line 29.
+Starting program: C:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02/./problem05.exe 
+[New Thread 544.0x28f8]
+[New Thread 544.0x750]
+
+Breakpoint 1, find_gcd (a=12, b=16) at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem05.c:29
+29	    return GCD;
+No symbol "gcd" in current context.
+$1 = 2
+$2 = 2
+The program being debugged has been started already.
+Start it from the beginning? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
+Starting program: C:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02/./problem05.exe 
+[New Thread 11208.0x1888]
+[New Thread 11208.0xea0]
+
+Breakpoint 1, find_gcd (a=12, b=16) at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem05.c:29
+29	    return GCD;
+No symbol "gcd" in current context.
+$3 = 2
+31	}
+main () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem05.c:12
+12	    output(a,b,gcd);
+$4 = 2
+13	    return 0;
+14	  }
+0x00401288 in __register_frame_info ()
+1	#include <stdio.h>
+2	
+3	int input();
+4	int find_gcd(int a, int b);
+5	void output(int a, int b, int gcd);
+6	int main ()
+7	  {
+8	    int a ,b,gcd;
+9	    a=input();
+10	    b=input();
+Breakpoint 1 at 0x4014e0: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem05.c, line 20.
+Breakpoint 2 at 0x40151a: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem05.c, line 29.
+Breakpoint 3 at 0x401550: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem05.c, line 34.
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x004014e0 in input 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem05.c:20
+2       breakpoint     keep y   0x0040151a in find_gcd 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem05.c:29
+3       breakpoint     keep y   0x00401550 in output 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem05.c:34
+Starting program: C:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02/./problem05.exe 
+[New Thread 11456.0x1cc8]
+[New Thread 11456.0x1868]
+
+Breakpoint 1, input () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem05.c:20
+20	   return x;
+21	}
+main () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem05.c:10
+10	    b=input();
+
+Breakpoint 1, input () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem05.c:20
+20	   return x;
+21	}
+main () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem05.c:11
+11	    gcd=find_gcd(a,b);
+
+Breakpoint 2, find_gcd (a=12, b=12) at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem05.c:29
+29	    return GCD;
+
+Breakpoint 3, output (a=12, b=12, gcd=2)
+    at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem05.c:35
+35	} A syntax error in expression, near `16'.
+main () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem05.c:13
+13	    return 0;
+14	  }
+0x00401288 in __register_frame_info ()
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128f in __register_frame_info ()
+The program being debugged has been started already.
+Start it from the beginning? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
+Starting program: C:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02/./problem05.exe 
+[New Thread 1428.0x808]
+[New Thread 1428.0x30b8]
+
+Breakpoint 1, input () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem05.c:20
+20	   return x;
+21	}
+main () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem05.c:10
+10	    b=input();
+Undefined command: "16".  Try "help".
+
+Breakpoint 1, input () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem05.c:20
+20	   return x;
+A syntax error in expression, near `16'.
+21	}
+main () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem05.c:11
+11	    gcd=find_gcd(a,b);
+A syntax error in expression, near `16'.
+
+Breakpoint 2, find_gcd (a=12, b=16) at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem05.c:29
+29	    return GCD;
+31	}
+main () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem05.c:12
+12	    output(a,b,gcd);
+Unmatched single quote.
+
+Breakpoint 3, output (a=12, b=16, gcd=2)
+    at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem05.c:35
+35	} A debugging session is active.
+
+	Inferior 1 [process 1428] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5

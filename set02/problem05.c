@@ -20,16 +20,16 @@ int input()
    return x;
 }
 int find_gcd(int a, int b){
-  int i,GCD;
-  for(i=2;i<=a || i<=b;i++)
+  int gcd,i;
+  for(i=1;i<=a && i<=b;i++)
   {
     if(a % i==0 && b % i==0){
-        GCD=i;
+        gcd = i;
     }
-    return GCD;
   }
+  return gcd;
 }
 void output(int a, int b, int gcd){
-  printf("Comman factor = %d",a,b,gcd);
+  printf("THe hcf of %d and %d is %d",a,b,gcd);
   
 } 
