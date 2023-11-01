@@ -23,7 +23,7 @@ void str_reverse(char *str, char *rev_str){
     length++;
  }
  int start = 0;
- int end = length - 0;
+ int end = length - 1;
   
    for (int i = end; i >= 0 ; i--)  
    {
