@@ -18,7 +18,7 @@ void input_string(char *a)
 }
 void str_reverse(char *str, char *rev_str){
   int length =0;
-  for (int i = 0; str[i]= '\0';i++)
+  for (int i = 0; str[i] != '\0';i++)
  {
     length++;
  }
