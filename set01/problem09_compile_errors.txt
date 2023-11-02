@@ -6,3 +6,12 @@ Compilation started at 10/31/2023, 11:57:09 AM
 Compilation finished at 10/31/2023, 11:57:09 AM
 Compilation started at 11/2/2023, 4:25:50 PM
 Compilation finished at 11/2/2023, 4:25:51 PM
+Compilation started at 11/2/2023, 4:38:22 PM
+c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem09.c: In function 'square_root':
+c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem09.c:21:13: error: 'n' redeclared as different kind of symbol
+     float i,n;
+             ^
+c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem09.c:19:25: note: previous definition of 'n' was here
+ float square_root(float n)
+                         ^
+Compilation finished at 11/2/2023, 4:38:22 PM
