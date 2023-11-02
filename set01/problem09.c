@@ -18,7 +18,16 @@ float input()
 }
 float square_root(float n)
 {
-    
+    float x, espsilon; 
+    x = n/2;
+    espsilon = 0.000001;
+    while ((x * x - n)>espsilon ||(n - x *x)>espsilon)
+
+    {
+        x = 0.5 * (x + n / x);
+        
+    }
+    return x;
 }
 void output(float n,float sqrroot)
 {
