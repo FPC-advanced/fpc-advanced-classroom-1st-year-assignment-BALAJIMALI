@@ -18,11 +18,11 @@ float input()
 }
 float square_root(float n)
 {
-    float i;
+    float n;
     for (i = 1.41; i * i < n; i += 0.0001)
     {
     }
-    return i;
+    return n;
 }
 void output(float n,float sqrroot)
 {
