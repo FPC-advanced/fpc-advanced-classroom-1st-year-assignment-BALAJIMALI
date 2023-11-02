@@ -21,7 +21,7 @@ float square_root(float n)
     float i,n;
     printf("n: ");
     scanf("%f",&n);
-    for
+    for(i=1.41;i*i<n;i+=0)
 }
 void output(float n,float sqrroot)
 {
