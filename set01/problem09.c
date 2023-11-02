@@ -22,7 +22,7 @@ float square_root(float n)
     printf("n: ");
     scanf("%f",&n);
     for(i=1.41;i*i<n;i+=0.0001);
-    printf("%")
+    printf("%.3f\n",i);
 }
 void output(float n,float sqrroot)
 {
