@@ -29,6 +29,6 @@ void find_area(Traingle *t){
     t->area=0.5*t->base*t->altitude;
 }   
 void output(Triangle t){
-    printf("The aera of trianglewith base %d and altitude %d is %d ,t.base,t.altitude,t.area ");
+    printf("The aera of trianglewith base %f and altitude %f is %f" ,t.base,t.altitude,t.area );
 } 
 
