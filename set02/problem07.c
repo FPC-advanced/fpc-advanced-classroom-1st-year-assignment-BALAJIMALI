@@ -15,9 +15,7 @@ int main()
     return 0;
 }
 Triangle input_triangle(){
-    int t;
-    printf("Enter base and altitude /n");
-    scanf("%d",t);
+    t);
     }
 void find_area(Traingle *t){
 
