@@ -24,7 +24,8 @@ Triangle input_triangle(){
     return a;
 }
     
-void find_area(Traingle *t){
+void find_area(Traingle *t)
+{
 
     t->area=0.5*t->base*t->altitude;
 }   
