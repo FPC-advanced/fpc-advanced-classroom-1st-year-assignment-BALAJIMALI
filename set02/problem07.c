@@ -15,13 +15,20 @@ int main()
     return 0;
 }
 Triangle input_triangle(){
-    t);
-    }
+    
+    Triangle a;
+    printf("Enter the base of the triangle :\n");
+    scanf("%f",&a.base);
+    printf("Enter the altitude of the triangle :\n");
+    scanf("%f",&a.altitude);
+    return a;
+}
+    
 void find_area(Traingle *t){
 
     t->area=0.5*t->base*t->altitude;
 }   
 void output(Triangle t){
-    printf("The aera of trianglewith base %d and altitude %d is %d ,t.base,altitude,area ");
+    printf("The aera of trianglewith base %d and altitude %d is %d ,t.base,t.altitude,t.area ");
 } 
 
