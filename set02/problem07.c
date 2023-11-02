@@ -10,8 +10,8 @@ void output(Triangle t);
 int main()
 {
      Triangle t1 = input_triangle();
-    find_area(&t1);
-    output(t1);
+    find_area(&t);
+    output(t);
     return 0;
 }
 Triangle input_triangle(){
