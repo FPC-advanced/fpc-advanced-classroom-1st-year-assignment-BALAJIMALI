@@ -9,7 +9,8 @@ void find_area(Traingle *t);
 void output(Triangle t);
 int main()
 {
-     Triangle t1 = input_triangle();
+    Triangle t;
+    t=input_triangle();
     find_area(&t);
     output(t);
     return 0;
