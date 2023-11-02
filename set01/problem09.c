@@ -20,6 +20,8 @@ float square_root(float n)
 {
     float i,n;
     printf("n: ");
+    scanf("%f",&n);
+    for
 }
 void output(float n,float sqrroot)
 {
