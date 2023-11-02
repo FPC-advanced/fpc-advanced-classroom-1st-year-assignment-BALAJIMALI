@@ -34,7 +34,10 @@ int stringcompare(char *string1, char *string2)
             a++;
         }
     }
-  
+    if(a==0)
+    {
+        return 2;
+    }
 }
 void output(char *string1, char *string2, int result)
 {
