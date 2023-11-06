@@ -25,5 +25,5 @@ int is_prime(int n){
   
 }
 void ouput(int n, int result){
- printf("The number is rime ")
+ printf("The number is prime %d",result);
 }
