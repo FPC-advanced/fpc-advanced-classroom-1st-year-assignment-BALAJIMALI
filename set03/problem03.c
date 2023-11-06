@@ -13,12 +13,12 @@ int input_number(){
  return x;
 }
 int is_prime(int n){
-  int i ;
+  int i,result ;
   for ( i = 2; i <=n/2; i++)
   {
     if (n% i == 0)
     {
-        
+        result ++;
     }
     
   }
