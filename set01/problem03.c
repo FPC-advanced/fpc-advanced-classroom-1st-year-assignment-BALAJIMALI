@@ -22,7 +22,7 @@ int add(int a, int b)
 {
     int sum;
     sum=a+b;
-    return sum;
+    return 0;
 }
 void output(int a, int b ,int sum )
 {
