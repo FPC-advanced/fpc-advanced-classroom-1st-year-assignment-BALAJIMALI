@@ -20,10 +20,10 @@ int is_prime(int n){
     {
         result ++;
     }
-    
+    return result;
   }
   
 }
 void ouput(int n, int result){
-
+ 
 }
