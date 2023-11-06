@@ -4,7 +4,9 @@ int input_number();
 int is_prime(int n);
 void ouput(int n, int result);
 int main(){
-
+  int n,rsult;
+  n=input_number();
+  re
 }
 int input_number(){
  int x;
