@@ -21,3 +21,4 @@ int main()
 	input_n_triangles(n,t);
 	find_n_areas(n,t);
 }
+Triangle inp
