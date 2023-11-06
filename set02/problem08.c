@@ -22,5 +22,12 @@ int main()
 	find_n_areas(n,t);
 }
 Triangle input_triangle(){
-	triangle 
+	
+	Triangle a;
+    printf("Enter the base of the triangle :\n");
+    scanf("%f",&a.base);
+    printf("Enter the altitude of the triangle :\n");
+    scanf("%f",&a.altitude);
+    return a;
+
 }
