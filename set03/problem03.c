@@ -16,7 +16,11 @@ int is_prime(int n){
   int i ;
   for ( i = 1; i <=0; i++)
   {
-    if
+    if (i=)
+    {
+        /* code */
+    }
+    
   }
   
 }
