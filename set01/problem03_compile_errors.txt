@@ -7,3 +7,12 @@ c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assi
  int add(int a, int b,int sum)
                           ^~~
 Compilation finished at 11/6/2023, 10:32:01 AM
+Compilation started at 11/6/2023, 10:32:31 AM
+c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem03.c: In function 'add':
+c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem03.c:23:9: error: 'sum' redeclared as different kind of symbol
+     int sum;
+         ^~~
+c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem03.c:21:26: note: previous definition of 'sum' was here
+ int add(int a, int b,int sum)
+                          ^~~
+Compilation finished at 11/6/2023, 10:32:32 AM
