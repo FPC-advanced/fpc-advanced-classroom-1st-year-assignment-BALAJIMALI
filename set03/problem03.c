@@ -6,8 +6,7 @@ void ouput(int n, int result);
 int main(){
   int n,result;
   n=input_number();
-  result(n,result);
-  ouput
+  ouput(n,result);
 }
 int input_number(){
  int x;
