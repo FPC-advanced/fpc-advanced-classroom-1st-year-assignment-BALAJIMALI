@@ -21,7 +21,7 @@ void input_triangle(float *x1, float *y1, float *x2, float *y2, float *x3, float
     scanf("%f %f", x3, y3);
 }
 int is_triangle(float x1, float y1, float x2, float y2,float x3, float y3){
-  int result
+  int result;
 }
 void output(float x1, float y1, float x2, float y2,float x3, float y3, int result){
 
