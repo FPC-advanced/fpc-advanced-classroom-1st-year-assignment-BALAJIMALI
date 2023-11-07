@@ -1,6 +1,6 @@
 #include <stdio.h>
 int input();
-int compare(int a, int b, int c, int largest);
+int compare(int a, int b, int c);
 void output (int a, int b , int c, int largest );
 
 int main()
@@ -9,7 +9,7 @@ int main()
     a=input();
     b=input();
     c=input();
-    largest= compare(a,b,c,largest);
+    largest= compare(a,b,c);
     output(a,b,c,largest);
     return 0;
 
@@ -21,8 +21,9 @@ int input()
     scanf("%d",&x);
     return x;
 }
-int compare (int a,int b, int c,int largest)
+int compare (int a,int b, int c)
 {
+    int largest;
     if (a>= b && a >= c)
     {
         largest=a;
@@ -44,5 +45,5 @@ int compare (int a,int b, int c,int largest)
 }
 void output(int a,int b, int c,int largest)
 {
-    printf("The largest of %d and %d and %d id %d\n",a,b,c,largest);
+    printf("The largest of %d and %d and %d is %d\n",a,b,c,largest);
 }
