@@ -5,7 +5,10 @@ int is_triangle(float x1, float y1, float x2, float y2,float x3, float y3);
 void output(float x1, float y1, float x2, float y2,float x3, float y3, int result);
 
 int main(){
- 
+   float x1, y1, x2, y2,;
+    input(&x1, &y1, &x2, &y2);
+    distance = find_distance(x1, y1, x2, y2);
+    output(x1, y1, x2, y2, distance);
 }
 void input_triangle(float *x1, float *y1, float *x2, float *y2, float *x3, float *y3){
 
