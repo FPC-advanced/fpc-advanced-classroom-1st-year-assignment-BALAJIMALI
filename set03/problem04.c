@@ -12,7 +12,7 @@ int main(){
 }
 int input(){
   int x;
-  printf("Enter th number :");
+  printf("Enter the nth number you want in fibonacci series : \n");
   scanf("%d",&x);
 }
 int find_fibo(int n){
