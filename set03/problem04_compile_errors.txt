@@ -1,0 +1,10 @@
+Compilation started at 11/9/2023, 4:23:23 PM
+c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem04.c: In function 'find_fibo':
+c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem04.c:21:11: warning: implicit declaration of function 'fibo' [-Wimplicit-function-declaration]
+    return fibo(n-1) + fibo(n-2);
+           ^~~~
+C:\Users\DELL\AppData\Local\Temp\ccWf6yWO.o: In function `find_fibo':
+c:/Users/DELL/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-BALAJIMALI/set03/problem04.c:21: undefined reference to `fibo'
+c:/Users/DELL/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-BALAJIMALI/set03/problem04.c:21: undefined reference to `fibo'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/9/2023, 4:23:23 PM
