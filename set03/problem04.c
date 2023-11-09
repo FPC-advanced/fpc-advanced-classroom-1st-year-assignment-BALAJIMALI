@@ -14,6 +14,7 @@ int input(){
   int x;
   printf("Enter the nth number you want in fibonacci series : \n");
   scanf("%d",&x);
+  retu
 }
 int find_fibo(int n){
      int a[n];
