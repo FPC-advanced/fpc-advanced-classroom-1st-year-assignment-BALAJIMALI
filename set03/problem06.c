@@ -6,7 +6,7 @@ void output(char *string, char *substring, int index);
 
 int main(){
     
-    char a[],b[100];
+    char a,b;
     int index;
     input_string(a,b);
     index=sub_str_index(a,b);
