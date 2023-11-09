@@ -25,5 +25,5 @@ int find_fibo(int n){
     return a[n];
 }
 void output(int n, int fibo){
-  printf("fibo(%d)is = %d /n",n,fibo);
+  printf("fibo(%d)is = %d \n",n,fibo);
 }
