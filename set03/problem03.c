@@ -23,8 +23,12 @@ int is_prime(int n){
     if (n% i == 0)
     {
         result ++;
+        return result;
     }
-    return result;
+    if (result){
+
+    }
+    else
   }
   
 }
