@@ -17,10 +17,10 @@ int input_array_size(){
     printf("Enter the size of the array : \n");
     scanf("%d",&a);
     return a;
-}
+
 } 
 void init_array(int n, int a[n]){
-
+ 
 }
 void erotosthenes_sieve(int n, int a[n]){
 
