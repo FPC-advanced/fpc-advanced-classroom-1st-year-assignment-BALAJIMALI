@@ -36,7 +36,7 @@ int is_prime(int n){
 }
 
 void output(int n, int result){
-    if(result == 1){
+    if(result == 2){
         printf("The number %d is prime.\n", n);
     }
     else {
