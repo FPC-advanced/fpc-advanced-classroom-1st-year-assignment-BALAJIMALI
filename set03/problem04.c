@@ -5,7 +5,9 @@ int find_fibo(int n);
 void output(int n, int fibo);
 int main(){
    int n,fibo;
-   n=input()
+   n=input();
+   fibo=input();
+   
 }
 int input(){
   int x;
