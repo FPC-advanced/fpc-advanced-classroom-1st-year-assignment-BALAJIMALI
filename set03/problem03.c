@@ -25,10 +25,7 @@ int is_prime(int n){
         result ++;
         return result;
     }
-    if (result){
-
-    }
-    else
+    
   }
   
 }
