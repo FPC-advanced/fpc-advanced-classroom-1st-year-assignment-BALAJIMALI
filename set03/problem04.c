@@ -7,7 +7,8 @@ int main(){
  
 }
 int input(){
-  
+  int x;
+  printf("Enter th ")
 }
 int find_fibo(int n){
 
