@@ -7,7 +7,11 @@ int main(){
  
 }
 int input(){
-    
+  
 }
-int find_fibo(int n);
-void output(int n, int fibo);
+int find_fibo(int n){
+
+}
+void output(int n, int fibo){
+
+}
