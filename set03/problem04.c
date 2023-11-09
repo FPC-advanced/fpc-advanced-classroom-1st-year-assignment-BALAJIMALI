@@ -7,7 +7,8 @@ int main(){
    int n,fibo;
    n=input();
    fibo=input();
-   find_fibo(n)
+   find_fibo(n);
+   output(n,fibo);
 }
 int input(){
   int x;
@@ -15,8 +16,8 @@ int input(){
   scanf("%d",&x);
 }
 int find_fibo(int n){
-  
+   
 }
 void output(int n, int fibo){
-
+  printf("")
 }
