@@ -7,7 +7,7 @@ int main(){
    int n,fibo;
    n=input();
    fibo=input();
-   find_fibo(n);
+   fibo=(n);
    output(n,fibo);
 }
 int input(){
