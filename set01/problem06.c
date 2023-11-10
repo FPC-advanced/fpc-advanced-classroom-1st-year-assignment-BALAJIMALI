@@ -36,11 +36,10 @@ void compare (int a,int b, int c,int *largest)
 
     {
         *largest=c;
-    
     }
 }
 void output(int a,int b, int c,int largest)
 {
-    printf("The largest of %d and %d and %d id %d\n",a,b,c,largest);
+    printf("The largest of %d and %d and %d is %d\n",a,b,c,largest);
 }
 
