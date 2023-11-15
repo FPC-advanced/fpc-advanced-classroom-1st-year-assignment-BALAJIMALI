@@ -28,7 +28,7 @@ void init_array(int n, int a[n]){
   }
 }
 void erotosthenes_sieve(int n, int a[n]){
-
+  int c
 }
 void output(int n, int a[n]){
     
