@@ -1,0 +1,17 @@
++l
+1	#include<stdio.h>
+2	float input();
+3	float square_root(float n);
+4	void output(float n, float sqrroot);
+5	int main()
+6	{
+7	    float n , sqrroot;
+8	    n=input();
+9	    sqrroot=square_root(n);
+10	    output(n,sqrroot);
++b 5
+Breakpoint 1 at 0x40146e: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem09.c, line 5.
++b 9
+Breakpoint 2 at 0x40147f: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem09.c, line 9.
++b 10
+Breakpoint 3 at 0x401497: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem09.c, line 10.
