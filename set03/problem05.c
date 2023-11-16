@@ -29,7 +29,7 @@ void init_array(int n, int a[n]){
 }
 void erotosthenes_sieve(int n, int a[n]){
   int c=sqrt(n);
-  for(int)
+  for(int i = 2)
 
 }
 void output(int n, int a[n]){

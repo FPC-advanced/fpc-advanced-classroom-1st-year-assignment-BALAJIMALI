@@ -4,24 +4,30 @@ float square_root(float n);
 void output(float n, float sqrroot);
 int main()
 {
-    float n=input();
-    float sqrroot= square_root(n);
+    float n , sqrroot;
+    n=input();
+    sqrroot=square_root(n);
     output(n,sqrroot);
     return 0;
-
 }
 float input()
 {
-    float n;
-    printf("%f",&n);
+    float n ;
+    printf("Enter a number: \n");
+    scanf("%f",&n);
     return n;
 }
 float square_root(float n)
 {
-    float i;
-    
+    float x = n/2;
+    float epsilon=0.000001;
+    while((x*x-n)> epsilon)
+    {
+     x=(x+n/x)/2;
+    }
+    return x ;
 }
-void output(float n,float sqrroot)
+void output(float n , float sqrroot)
 {
-    printf("The square root of %.1f is %.3f\n", n, sqrroot);
+    printf("Square root of %f is %f",n,sqrroot);
 }
