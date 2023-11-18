@@ -2,3 +2,8 @@
 No symbol table is loaded.  Use the "file" command.
 +b 5
 No symbol table is loaded.  Use the "file" command.
++set trace-commands on
++l
+No symbol table is loaded.  Use the "file" command.
++L
+No symbol table is loaded.  Use the "file" command.
