@@ -12,3 +12,8 @@ Starting program:
 No executable specified, use `target exec'.
 +n
 The program is not being run.
++l
+No symbol table is loaded.  Use the "file" command.
++q
++l
+No symbol table is loaded.  Use the "file" command.
