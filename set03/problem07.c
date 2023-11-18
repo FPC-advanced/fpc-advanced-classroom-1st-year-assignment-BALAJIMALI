@@ -41,6 +41,7 @@ Line input_line()
     return l;
 }
 void find_length(Line *l)
+
 {
     float dx,dy;
     dx = l->p1.x - l->p2.x;
