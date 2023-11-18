@@ -4,3 +4,9 @@ No symbol table is loaded.  Use the "file" command.
 +l
 No symbol table is loaded.  Use the "file" command.
 +q
++l
+No symbol table is loaded.  Use the "file" command.
++l
+No symbol table is loaded.  Use the "file" command.
++ll
+Undefined command: "ll".  Try "help".
