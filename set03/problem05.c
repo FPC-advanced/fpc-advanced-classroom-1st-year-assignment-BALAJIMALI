@@ -29,9 +29,28 @@ void init_array(int n, int a[n]){
 }
 void erotosthenes_sieve(int n, int a[n]){
   int c=sqrt(n);
-  for(int i = 2)
+  for(int i = 2; i<= c; i++)
+  {
+    if (a[i]!= 0)
+    {
+      for (int j = i * i; j < n ; j += i)
+            {
+                a[j - 2] = 0;
+            }
+    }
+  }
 
 }
 void output(int n, int a[n]){
-    
+      for(int i=0;i<n;i++)
+    {
+        if(a[i]==0)
+        {
+            continue;
+        }
+        else 
+        {
+            printf("%d \n",a[i]);
+        }
+    }
 }
