@@ -16,5 +16,6 @@ void output(Camel c);
  int main()
  {
     Camel c;
-
+    c=input();
+    find_weight()
  }
