@@ -20,3 +20,7 @@ void output(Camel c);
     find_weight(&c);
     output(c);
  }
+ Camel input()
+ {
+    
+ }
