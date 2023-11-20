@@ -30,4 +30,6 @@ void output(Camel c);
     printf("Enter the length of the camel: \n");
     scanf("%f"&a.length);
  }
- void find_weight(Camel )
+ void find_weight(Camel *c){
+    float pi=
+ }
