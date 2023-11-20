@@ -22,5 +22,6 @@ void output(Camel c);
  }
  Camel input()
  {
-    
+    Camel a;
+    printf("")
  }
