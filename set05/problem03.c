@@ -28,5 +28,6 @@ void output(Camel c);
     printf("Enter the height of the camel: \n");
     scanf("%f"&a.height);
     printf("Enter the length of the camel: \n");
-    scanf("%f")
+    scanf("%f"&a.length);
  }
+ 
