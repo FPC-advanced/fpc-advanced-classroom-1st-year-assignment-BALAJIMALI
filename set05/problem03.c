@@ -8,8 +8,8 @@ struct camel {
 typedef struct camel Camel;
 
 Camel input();
-float find_weight(Camel c);  //pass by value
-//or
+// float find_weight(Camel c);  //pass by value
+// //or
 void find_weight(Camel *c); //passing address variable
 void output(Camel c);
  
@@ -24,15 +24,15 @@ void output(Camel c);
  {
     Camel a;
     printf("Enter  the radius of the camel: \n");
-    scanf("%f"&a.radius);
+    scanf("%f",&a.radius);
     printf("Enter the height of the camel: \n");
-    scanf("%f"&a.height);
+    scanf("%f",&a.height);
     printf("Enter the length of the camel: \n");
-    scanf("%f"&a.length);
+    scanf("%f",&a.length);
  }
  void find_weight(Camel *c){
     float pi=3.14;
-    float rad=pow(c-radius,3);
+    float rad=pow(c->radius,3);
     c->weight=pi * rad * sqrt (c->height * c->length);
  }
  void output(Camel c){

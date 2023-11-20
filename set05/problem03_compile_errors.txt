@@ -28,3 +28,5 @@ c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assi
                      ^~~~~~
 c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem03.c:35:21: note: each undeclared identifier is reported only once for each function it appears in
 Compilation finished at 11/20/2023, 9:56:20 AM
+Compilation started at 11/20/2023, 10:01:06 AM
+Compilation finished at 11/20/2023, 10:01:07 AM
