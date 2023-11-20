@@ -1,0 +1,30 @@
+Compilation started at 11/20/2023, 9:56:20 AM
+c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem03.c:13:6: error: conflicting types for 'find_weight'
+ void find_weight(Camel *c); //passing address variable
+      ^~~~~~~~~~~
+c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem03.c:11:7: note: previous declaration of 'find_weight' was here
+ float find_weight(Camel c);  //pass by value
+       ^~~~~~~~~~~
+c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem03.c: In function 'input':
+c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem03.c:27:15: error: invalid operands to binary & (have 'char *' and 'float')
+     scanf("%f"&a.radius);
+           ~~~~^~~~~~~~~
+c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem03.c:29:15: error: invalid operands to binary & (have 'char *' and 'float')
+     scanf("%f"&a.height);
+           ~~~~^~~~~~~~~
+c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem03.c:31:15: error: invalid operands to binary & (have 'char *' and 'float')
+     scanf("%f"&a.length);
+           ~~~~^~~~~~~~~
+c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem03.c: At top level:
+c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem03.c:33:7: error: conflicting types for 'find_weight'
+  void find_weight(Camel *c){
+       ^~~~~~~~~~~
+c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem03.c:11:7: note: previous declaration of 'find_weight' was here
+ float find_weight(Camel c);  //pass by value
+       ^~~~~~~~~~~
+c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem03.c: In function 'find_weight':
+c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem03.c:35:21: error: 'radius' undeclared (first use in this function)
+     float rad=pow(c-radius,3);
+                     ^~~~~~
+c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem03.c:35:21: note: each undeclared identifier is reported only once for each function it appears in
+Compilation finished at 11/20/2023, 9:56:20 AM
