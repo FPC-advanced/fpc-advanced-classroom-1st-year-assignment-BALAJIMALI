@@ -33,5 +33,5 @@ void output(Camel c);
  void find_weight(Camel *c){
     float pi=3.14;
     float rad=pow(c-radius,3);
-    c->weight=pi * rad * sqrt (c)
+    c->weight=pi * rad * sqrt (c->height * c->length)
  }
