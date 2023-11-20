@@ -31,5 +31,6 @@ void output(Camel c);
     scanf("%f"&a.length);
  }
  void find_weight(Camel *c){
-    float pi=
+    float pi=3.14;
+    float rad=pow
  }
