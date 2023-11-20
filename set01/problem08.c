@@ -42,7 +42,7 @@ int sum_even_array(int n, int a[n] , int sum)
 }
 void output(int sum)
 {
-    printf("the sum of the values of the array is %d", sum);
+    printf("the sum of the values of the array %d + %d + %d  is %d", sum);
 }
 
 
