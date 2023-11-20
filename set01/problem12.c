@@ -40,7 +40,7 @@ Complex input_complex()
 void input_n_complex(int n,Complex C[n])
 {
 	int i;
-	for(i=0;i,n;i++)
+	for(i=0;i<n;i++)
 	{
 		C[i]=input_complex();
 
