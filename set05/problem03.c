@@ -23,5 +23,5 @@ void output(Camel c);
  Camel input()
  {
     Camel a;
-    printf("")
+    printf("Enter  the radius of the camel: ")
  }
