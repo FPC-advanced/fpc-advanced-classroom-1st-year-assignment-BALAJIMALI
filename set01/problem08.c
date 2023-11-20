@@ -28,7 +28,7 @@ void input_array(int n, int a[n])
     int  i=0;
     for(i=0;i<n;i++)
     {
-        scanf("%d",&a[i]);
+        scanf("%d \n",&a[i]);
     }
 }
 int sum_even_array(int n, int a[n] , int sum)
