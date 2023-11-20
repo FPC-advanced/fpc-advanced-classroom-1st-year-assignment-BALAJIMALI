@@ -33,7 +33,7 @@ void output(Camel c);
  void find_weight(Camel *c){
     float pi=3.14;
     float rad=pow(c->radius,3);
-    c->weight=pi * rad * sqrt (c->height * c->length);
+    c->weight =pi * rad * sqrt(c->height * c->length);
  }
  void output(Camel c){
     printf("The weight of the camel with radius: %f,height :%f,lenght: %f is %f",c.radius,c.height,c.length,c.weight);
