@@ -36,5 +36,5 @@ void output(Camel c);
     c->weight=pi * rad * sqrt (c->height * c->length);
  }
  void output(Camel c){
-    printf("The weight of the camel with radius: ")
+    printf("The weight of the camel with radius: %d,height :%d,lenght:")
  }
