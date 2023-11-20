@@ -36,7 +36,7 @@ int sum_even_array(int n, int a[n] , int sum)
     int i=0;
     for(i=0;i<n;i++)
     {
-        sum = sum + a[n];
+        sum = sum + a[1];
     }
     return sum;
 }
