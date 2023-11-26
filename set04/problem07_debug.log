@@ -1,0 +1,124 @@
++l
+9	Fraction input_fraction();
+10	int find_gcd(int a, int b);
+11	Fraction add_fractions(Fraction f1, Fraction f2);
+12	void output(Fraction f1, Fraction f2, Fraction sum);
+13	
+14	int main()
+15	{
+16	    int a,b;
+17	    Fraction f1,f2,sum;
+18	    printf("Enter the fraction f1 : \n");
++b 12
+Breakpoint 1 at 0x40146e: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem07.c, line 12.
++b 23
+Breakpoint 2 at 0x4014cc: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem07.c, line 23.
++b 32
+Breakpoint 3 at 0x40154e: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem07.c, line 32.
++b 44
+Breakpoint 4 at 0x401578: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem07.c, line 44.
++b 49
+Breakpoint 5 at 0x40158a: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem07.c, line 49.
++b 56
+Breakpoint 6 at 0x4015b5: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem07.c, line 56.
++b 59
+Breakpoint 7 at 0x4015de: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem07.c, line 59.
++b 63
+Breakpoint 8 at 0x4015ef: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem07.c, line 63.
++info b
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x0040146e in main 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem07.c:12
+2       breakpoint     keep y   0x004014cc in main 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem07.c:23
+3       breakpoint     keep y   0x0040154e in input_fraction 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem07.c:32
+4       breakpoint     keep y   0x00401578 in find_gcd 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem07.c:44
+5       breakpoint     keep y   0x0040158a in find_gcd 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem07.c:49
+6       breakpoint     keep y   0x004015b5 in add_fractions 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem07.c:56
+7       breakpoint     keep y   0x004015de in add_fractions 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem07.c:59
+8       breakpoint     keep y   0x004015ef in output 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem07.c:63
++r
+Starting program: C:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04/./problem07.exe 
+[New Thread 11384.0x3df0]
+[New Thread 11384.0x2a98]
+
+Breakpoint 1, main () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem07.c:18
+18	    printf("Enter the fraction f1 : \n");
++n
+19	    f1=input_fraction();
++n
+
+Breakpoint 3, input_fraction () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem07.c:32
+32	    return a;
++n
+33	}
++n
+main () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem07.c:20
+20	    printf("Enter the fraction f2 : \n");
++n
+21	    f2=input_fraction();
++n
+
+Breakpoint 3, input_fraction () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem07.c:32
+32	    return a;
++n
+33	}
++n
+main () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem07.c:22
+22	    sum=add_fractions(f1,f2);
++n
+
+Breakpoint 6, add_fractions (f1=..., f2=...)
+    at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem07.c:56
+56	    int gcd=find_gcd(f3.num,f3.den);
++n
+
+Breakpoint 4, find_gcd (a=-598002914, b=1399979968)
+    at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem07.c:46
+46	            a=b;
++n
+47	            b=c;
++n
+36	    for(int i=0;;i++)
++n
+37	    {
++n
+38	        int c= a%b;
++n
+39	        if(c==0)
++n
+
+Breakpoint 4, find_gcd (a=1399979968, b=-598002914)
+    at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem07.c:46
+46	            a=b;
++n
+47	            b=c;
++n
+36	    for(int i=0;;i++)
++n
+37	    {
++n
+38	        int c= a%b;
++n
+39	        if(c==0)
++n
+
+Breakpoint 4, find_gcd (a=-598002914, b=203974140)
+    at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem07.c:46
+46	            a=b;
++n
+47	            b=c;
++n
+36	    for(int i=0;;i++)
++q
+A debugging session is active.
+
+	Inferior 1 [process 11384] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
