@@ -1,0 +1,97 @@
++l
+1	#include <stdio.h>
+2	
+3	void input_n_and_r(int *n, int *r);
+4	int nCr(int n, int r);
+5	void output(int n, int r, int result);
+6	
+7	int main()
+8	{
+9	    int n,r,result;
+10	    input_n_and_r(&n,&r);
++b 13
+Breakpoint 1 at 0x4014b6: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem03.c, line 13.
++b 31
+Breakpoint 2 at 0x401547: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem03.c, line 31.
++b 39
+Breakpoint 3 at 0x401593: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem03.c, line 39.
++b 443
+No line 443 in the current file.
+Make breakpoint pending on future shared library load? (y or [n]) Please answer y or [n].
+Make breakpoint pending on future shared library load? (y or [n]) Breakpoint 4 (443) pending.
++b 43
+Breakpoint 5 at 0x40159e: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem03.c, line 43.
++info b
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x004014b6 in main 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem03.c:13
+2       breakpoint     keep y   0x00401547 in nCr 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem03.c:31
+3       breakpoint     keep y   0x00401593 in nCr 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem03.c:39
+4       breakpoint     keep y   <PENDING>  443
+5       breakpoint     keep y   0x0040159e in output 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem03.c:43
++r
+Starting program: C:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04/./problem03.exe 
+[New Thread 15524.0x3f94]
+[New Thread 15524.0x3c18]
+
+Breakpoint 2, nCr (n=4, r=5) at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem03.c:31
+31	       b=j*b; 
++n
+29	    for(j=1;j<=r;j++)
++n
+
+Breakpoint 2, nCr (n=4, r=5) at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem03.c:31
+31	       b=j*b; 
++n
+29	    for(j=1;j<=r;j++)
++n
+
+Breakpoint 2, nCr (n=4, r=5) at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem03.c:31
+31	       b=j*b; 
++n
+29	    for(j=1;j<=r;j++)
++n
+
+Breakpoint 2, nCr (n=4, r=5) at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem03.c:31
+31	       b=j*b; 
++n
+29	    for(j=1;j<=r;j++)
++n
+
+Breakpoint 2, nCr (n=4, r=5) at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem03.c:31
+31	       b=j*b; 
++n
+29	    for(j=1;j<=r;j++)
++nn
+Undefined command: "nn".  Try "help".
++nn
+Undefined command: "nn".  Try "help".
++n
+33	    for(k=1;k<=n-r;k++)
++n
+37	    int d=b*c;
++n
+38	    int result=a/d;
++n
+
+Breakpoint 3, nCr (n=4, r=5) at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem03.c:39
+39	    return result;
++n
+40	}
++n
+main () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem03.c:12
+12	    output(n,r,result);
++n
+
+Breakpoint 5, output (n=4, r=5, result=0)
+    at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem03.c:43
+43	    printf("for n = %d and r = %d, nCr = %d \n",n,r,result);
++q
+A debugging session is active.
+
+	Inferior 1 [process 15524] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
