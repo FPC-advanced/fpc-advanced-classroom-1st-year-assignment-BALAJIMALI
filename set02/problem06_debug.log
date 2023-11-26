@@ -1,0 +1,85 @@
++l
+1	#include<stdio.h>
+2	void input_string(char *a);
+3	void str_reverse(char *str, char *rev_str);
+4	void output(char *a, char *reverse_a);
+5	int main()
+6	{
+7	   char a[50], reverse_a[50];
+8	    input_string(a);
+9	    str_reverse(a, reverse_a);
+10	    output(a, reverse_a);
++b 9
+Breakpoint 1 at 0x40147a: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem06.c, line 9.
++b 10
+Breakpoint 2 at 0x40148e: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem06.c, line 10.
++b 27
+Breakpoint 3 at 0x40150e: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem06.c, line 27.
++b 37
+Breakpoint 4 at 0x401548: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem06.c, line 37.
++b 42
+Breakpoint 5 at 0x40156f: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem06.c, line 42.
++info b
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x0040147a in main 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem06.c:9
+2       breakpoint     keep y   0x0040148e in main 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem06.c:10
+3       breakpoint     keep y   0x0040150e in str_reverse 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem06.c:27
+4       breakpoint     keep y   0x00401548 in str_reverse 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem06.c:37
+5       breakpoint     keep y   0x0040156f in output 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem06.c:42
++r
+Starting program: c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02/./problem06.exe 
+[New Thread 5732.0x3148]
+[New Thread 5732.0x2838]
+
+Breakpoint 1, main () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem06.c:9
+9	    str_reverse(a, reverse_a);
++n
+
+Breakpoint 3, str_reverse (str=0x61feee "helloworld", rev_str=0x61febc "üþa")
+    at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem06.c:28
+28	   for (int i = end; i >= 0 ; i--)  
++n
+30	    if (str[i] != '\0')
++n
+32	        rev_str[start]=str[i];
++n
+33	        start++;
++n
+28	   for (int i = end; i >= 0 ; i--)  
++n
+30	    if (str[i] != '\0')
++n
+32	        rev_str[start]=str[i];
++n
+33	        start++;
++n12
+Undefined command: "n12".  Try "help".
++n4
+Undefined command: "n4".  Try "help".
++n
+28	   for (int i = end; i >= 0 ; i--)  
++n
+30	    if (str[i] != '\0')
++n
+32	        rev_str[start]=str[i];
++n
+33	        start++;
++n
+28	   for (int i = end; i >= 0 ; i--)  
++n
+30	    if (str[i] != '\0')
++n
+32	        rev_str[start]=str[i];
++n
+33	        start++;
++q
+A debugging session is active.
+
+	Inferior 1 [process 5732] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5

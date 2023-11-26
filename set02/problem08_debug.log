@@ -1,0 +1,53 @@
++l
+7	
+8	int input_n();
+9	Triangle input_triangle();
+10	void input_n_triangles(int n, Triangle t[n]);
+11	void find_n_areas(int n, Triangle t[n]);
+12	Triangle find_smallest_triangle(int n, Triangle t[n]);
+13	void output(int n, Triangle t[n], Triangle smallest);
+14	
+15	int main()
+16	{
++b 22
+Breakpoint 1 at 0x40151d: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem08.c, line 22.
++b 23
+Breakpoint 2 at 0x40152f: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem08.c, line 23.
++b 74
+Breakpoint 3 at 0x401764: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem08.c, line 74.
++info b
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x0040151d in main 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem08.c:22
+2       breakpoint     keep y   0x0040152f in main 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem08.c:23
+3       breakpoint     keep y   0x00401764 in output 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem08.c:74
++r
+Starting program: c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02/./problem08.exe 
+[New Thread 11600.0x1abc]
+[New Thread 11600.0x3b80]
+
+Breakpoint 1, main () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem08.c:22
+22	    find_n_areas(n,t);
++n
+
+Breakpoint 2, main () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem08.c:23
+23	    smallest=find_smallest_triangle(n,t);
++n
+24	    output(n,t,smallest);
++n
+
+Breakpoint 3, output (n=1, t=0x61fec4, smallest=...)
+    at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem08.c:74
+74	    printf("The smallest triangle out of triangles with the triangle having base %f, altitude %f and area %f \n",smallest.base,smallest.altitude,smallest.area);
++n
+75	}+n
+main () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem08.c:25
+25	}
++q
+A debugging session is active.
+
+	Inferior 1 [process 11600] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
