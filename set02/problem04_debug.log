@@ -19,3 +19,56 @@ Breakpoint 3 at 0x40158f: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-a
 Breakpoint 4 at 0x4015d5: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem04.c, line 42.
 +b 46
 Breakpoint 5 at 0x4015e0: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem04.c, line 46.
++info b
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x00401508 in is_composite 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem04.c:15
+2       breakpoint     keep y   0x0040157f in input_array 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem04.c:32
+3       breakpoint     keep y   0x0040158f in sum_composite_numbers 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem04.c:37
+4       breakpoint     keep y   0x004015d5 in sum_composite_numbers 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem04.c:42
+5       breakpoint     keep y   0x004015e0 in output 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem04.c:46
++r
+Starting program: C:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02/./problem04.exe 
+[New Thread 14400.0x2170]
+[New Thread 14400.0x3f30]
+
+Breakpoint 2, input_array (n=2, a=0x61fee8)
+    at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem04.c:33
+33	}
++n
+main () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem04.c:12
+12	    sum = sum_composite_numbers(n, a);
++n
+
+Breakpoint 3, sum_composite_numbers (n=2, a=0x61fee8)
+    at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem04.c:37
+37	    for (int i = 0; i < n; i++) {
++n
+38	        if (is_composite(a[i])) {
++n
+
+Breakpoint 1, is_composite (num=16) at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem04.c:16
+16	    return 0;
++n
+17	}
++n
+sum_composite_numbers (n=2, a=0x61fee8)
+    at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem04.c:37
+37	    for (int i = 0; i < n; i++) {
++n
+38	        if (is_composite(a[i])) {
++n
+
+Breakpoint 1, is_composite (num=4199600)
+    at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem04.c:16
+16	    return 0;
++q
+A debugging session is active.
+
+	Inferior 1 [process 14400] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
