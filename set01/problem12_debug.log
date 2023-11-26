@@ -1,0 +1,83 @@
++l
+7	
+8	int get_n();
+9	Complex input_complex();
+10	void input_n_complex(int n, Complex complex_array[n]);
+11	Complex add_complex(Complex a, Complex b);
+12	Complex add_n_complex(int n, Complex complex_array[n]);
+13	void output(int n, Complex complex_array[n], Complex result);
+14	
+15	int main()
+16	{
++b 13
+Breakpoint 1 at 0x401477: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem12.c, line 13.
++b 22
+Breakpoint 2 at 0x4014ec: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem12.c, line 22.
++b 46
+Breakpoint 3 at 0x401582: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem12.c, line 46.
++b 68
+Breakpoint 4 at 0x40162c: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem12.c, line 68.
++b 78
+Breakpoint 5 at 0x40168b: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem12.c, line 78.
++info b
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x00401477 in main 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem12.c:13
+2       breakpoint     keep y   0x004014ec in main 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem12.c:22
+3       breakpoint     keep y   0x00401582 in input_n_complex 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem12.c:46
+4       breakpoint     keep y   0x0040162c in add_n_complex 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem12.c:68
+5       breakpoint     keep y   0x0040168b in output 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem12.c:78
++r
+Starting program: C:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01/./problem12.exe 
+[New Thread 3124.0x188c]
+[New Thread 3124.0x3540]
+
+Breakpoint 1, 0x00401477 in main () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem12.c:16
+16	{
++n
+18	    n = get_n();
++b
+Breakpoint 6 at 0x40147b: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem12.c, line 18.
++b
+Note: breakpoint 6 also set at pc 0x40147b.
+Breakpoint 7 at 0x40147b: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem12.c, line 18.
++b
+Note: breakpoints 6 and 7 also set at pc 0x40147b.
+Breakpoint 8 at 0x40147b: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem12.c, line 18.
++b
+Note: breakpoints 6, 7 and 8 also set at pc 0x40147b.
+Breakpoint 9 at 0x40147b: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem12.c, line 18.
++b
+Note: breakpoints 6, 7, 8 and 9 also set at pc 0x40147b.
+Breakpoint 10 at 0x40147b: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem12.c, line 18.
++b
+Note: breakpoints 6, 7, 8, 9 and 10 also set at pc 0x40147b.
+Breakpoint 11 at 0x40147b: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem12.c, line 18.
++b
+Note: breakpoints 6, 7, 8, 9, 10 and 11 also set at pc 0x40147b.
+Breakpoint 12 at 0x40147b: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem12.c, line 18.
++n
+19	    Complex C[n], sum;
++n
+
+Program received signal SIGSEGV, Segmentation fault.
+__chkstk_ms () at ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S:172
+172	../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S: No such file or directory.
++n
+
+Program received signal SIGSEGV, Segmentation fault.
+__chkstk_ms () at ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S:172
+172	in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
++n
+[Inferior 1 (process 3124) exited with code 030000000375]
++n
+The program is not being run.
++n
+The program is not being run.
++n
+The program is not being run.
++q
