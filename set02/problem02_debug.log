@@ -1,0 +1,17 @@
++l
+1	#include<stdio.h>
+2	int input_side();
+3	int check_scalene(int a, int b, int c);
+4	void output(int a, int b, int c, int isscalene);
+5	int main ()
+6	{
+7	    int a,b,c,isscalene;
+8	    a=input_side();
+9	    b=input_side();
+10	    c=input_side();
++b 12
+Breakpoint 1 at 0x4014a9: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem02.c, line 12.
++b 26
+Breakpoint 2 at 0x401520: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem02.c, line 26.
++b 29 
+Breakpoint 3 at 0x401525: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem02.c, line 29.
