@@ -1,0 +1,114 @@
++l
+8	int input_n();
+9	Fraction input_fraction();
+10	void input_n_fractions(int n, Fraction f[n]);
+11	int find_gcd(int a, int b);
+12	Fraction add_fractions(Fraction f1, Fraction f2);
+13	Fraction add_n_fractions(int n, Fraction f[n]);
+14	void output(int n, Fraction f[n], Fraction sum);
+15	
+16	int main()
+17	{
++b 10
+Breakpoint 1 at 0x401477: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem02.c, line 10.
++b 15
+Note: breakpoint 1 also set at pc 0x401477.
+Breakpoint 2 at 0x401477: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem02.c, line 15.
++b 19
+Breakpoint 3 at 0x40147b: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem02.c, line 19.
++b31
+Undefined command: "b31".  Try "help".
++b 31
+Breakpoint 4 at 0x401542: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem02.c, line 31.
++b 23
+Breakpoint 5 at 0x4014d4: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem02.c, line 23.
++b 80
+Breakpoint 6 at 0x4016b3: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem02.c, line 80.
++b 90
+Breakpoint 7 at 0x40171b: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem02.c, line 90.
++b 95
+Breakpoint 8 at 0x401729: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem02.c, line 95.
++r
+Starting program: C:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04/./problem02.exe 
+[New Thread 3012.0xdc8]
+[New Thread 3012.0x3314]
+
+Breakpoint 1, 0x00401477 in main () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem02.c:17
+17	{
++n
+
+Breakpoint 3, main () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem02.c:19
+19	    n=input_n();
++n
+
+Breakpoint 4, input_n () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem02.c:31
+31	    return n;
++n
+32	}
++n
+main () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem02.c:20
+20	    Fraction f[n];
++n
+22	    input_n_fractions(n,f);
++n
+
+Breakpoint 5, main () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem02.c:23
+23	    Fraction sum=add_n_fractions(n,f);
++n
+
+Breakpoint 6, add_fractions (f1=..., f2=...)
+    at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem02.c:80
+80	    return f;
++n
+81	}
++n
+add_n_fractions (n=4, f=0x61fec0) at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem02.c:87
+87	    for(int i=1;i<n;i++)
++n
+89	        sum=add_fractions(sum,f[i]);
++n
+
+Breakpoint 6, add_fractions (f1=..., f2=...)
+    at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem02.c:80
+80	    return f;
++n
+81	}
++n
+add_n_fractions (n=4, f=0x61fec0) at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem02.c:87
+87	    for(int i=1;i<n;i++)
++n
+89	        sum=add_fractions(sum,f[i]);
++n
+
+Breakpoint 6, add_fractions (f1=..., f2=...)
+    at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem02.c:80
+80	    return f;
++n
+81	}
++n
+add_n_fractions (n=4, f=0x61fec0) at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem02.c:87
+87	    for(int i=1;i<n;i++)
++nn
+Undefined command: "nn".  Try "help".
++n
+
+Breakpoint 7, add_n_fractions (n=4, f=0x61fec0)
+    at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem02.c:91
+91	    return sum;
++n
+92	}
++n
+main () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem02.c:24
+24	    output(n,f,sum);
++n
+
+Breakpoint 8, output (n=4, f=0x61fec0, sum=...)
+    at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem02.c:95
+95	    printf("The sum is %d/%d",sum.num,sum.den);
++n
+96	}+q
+A debugging session is active.
+
+	Inferior 1 [process 3012] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
