@@ -23,3 +23,59 @@ Breakpoint 5 at 0x40169c: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-a
 Breakpoint 6 at 0x40169a: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem02.c, line 45.
 +ingo b
 Undefined command: "ingo".  Try "help".
++info b
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x004014e0 in main 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem02.c:13
+2       breakpoint     keep y   0x00401587 in input_triangle 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem02.c:21
+3       breakpoint     keep y   0x00401644 in is_triangle 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem02.c:31
+4       breakpoint     keep y   0x00401649 in is_triangle 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem02.c:34
+5       breakpoint     keep y   0x0040169c in output 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem02.c:42
+6       breakpoint     keep y   0x0040169a in output 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem02.c:45
++r
+Starting program: C:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03/./problem02.exe 
+[New Thread 12960.0x9e4]
+[New Thread 12960.0x3aa8]
+
+Breakpoint 2, input_triangle (x1=0x61ff18, y1=0x61ff14, x2=0x61ff10, y2=0x61ff0c, x3=0x61ff08, y3=0x61ff04)
+    at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem02.c:21
+21	    scanf("%f %f", x3, y3);
++n
+22	}
++n
+main () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem02.c:12
+12	    result = is_triangle(x1, y1, x2, y2,x3,y3);
++n
+
+Breakpoint 3, is_triangle (x1=1, y1=1, x2=2, y2=2, x3=8.99963199e-039, y3=5.88738174e-039)
+    at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem02.c:33
+33	    return 0;
++n
+
+Breakpoint 4, is_triangle (x1=1, y1=1, x2=2, y2=2, x3=8.99963199e-039, y3=5.88738174e-039)
+    at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem02.c:37
+37	}
++n
+
+Breakpoint 1, main () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem02.c:13
+13	    output(x1, y1, x2, y2, x3, y3 , result);
++n
+
+Breakpoint 5, output (x1=1, y1=1, x2=2, y2=2, x3=8.99963199e-039, y3=5.88738174e-039, result=0)
+    at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem02.c:44
+44	   printf("The points (%f,%f), (%f,%f) and (%f,%f) do not from triangle \n",x1,x2,x3,y1,y2,y3,result);
++n
+46	}+n
+main () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem02.c:14
+14	}
++q
+A debugging session is active.
+
+	Inferior 1 [process 12960] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
