@@ -15,3 +15,11 @@ Breakpoint 1 at 0x4014e0: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-a
 Breakpoint 2 at 0x401587: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem02.c, line 21.
 +b 31
 Breakpoint 3 at 0x401644: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem02.c, line 31.
++b 34
+Breakpoint 4 at 0x401649: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem02.c, line 34.
++b 42
+Breakpoint 5 at 0x40169c: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem02.c, line 42.
++b 45
+Breakpoint 6 at 0x40169a: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem02.c, line 45.
++ingo b
+Undefined command: "ingo".  Try "help".
