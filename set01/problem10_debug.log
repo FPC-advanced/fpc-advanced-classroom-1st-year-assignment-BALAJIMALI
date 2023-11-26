@@ -1,0 +1,40 @@
++l
+1	#include <stdio.h>
+2	void input_two_strings(char *string1, char *string2);
+3	int stringcompare(char *string1, char *string2);
+4	void output(char *string1, char *string2, int result);
+5	
+6	int main()
+7	{
+8	    int result;
+9	    char *string1,*string2;
+10	    input_two_strings(string1,string2);
++b 11
+Breakpoint 1 at 0x401482: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem10.c, line 11.
++print string1
+No symbol "string1" in current context.
++r
+Starting program: C:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01/./problem10.exe 
+[New Thread 4260.0x22fc]
+[New Thread 4260.0x2d94]
+
+Breakpoint 1, main () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem10.c:11
+11	    result=stringcompare(string1,string2);
++print string1
+$1 = 0x400080 "PE"
++print string1[0]
+$2 = 80 'P'
++cd "c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01"
+"c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01": Invalid argument.
++gdb ./problem10
+Undefined command: "gdb".  Try "help".
++c
+Continuing.
+[Inferior 1 (process 4260) exited normally]
++set logging file problem10_debug.log
++set logging enabled on
+Undefined set logging command: "enabled on".  Try "help set logging".
++set logging on
+Already logging to problem10_debug.log.
++set trace-commands on
++q

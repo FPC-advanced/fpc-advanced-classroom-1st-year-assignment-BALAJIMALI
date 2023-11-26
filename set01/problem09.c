@@ -22,7 +22,7 @@ float square_root(float n)
 {
     float x = n/2;
     float epsilon=0.000001;
-    while((x*x-n)> epsilon)
+    while((x*x-n)> epsilon || (n-x*x)>epsilon)
     {
      x=(x+n/x)/2;
     }

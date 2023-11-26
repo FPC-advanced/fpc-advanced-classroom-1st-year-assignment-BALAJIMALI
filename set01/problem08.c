@@ -1,20 +1,20 @@
 #include <stdio.h>
 
-int array_size();
+int input_array_size();
 void input_array(int n, int a[n]);
-int sum_even_array(int n,int a[n],int sum);
-void output (int sum);
+int sum_n_array(int n, int a[n]);
+void output(int n, int a[n],int sum);
 int main ()
 {
-    int n, sum =0;
-    n=array_size();
+    int n, sum ;
+    n=input_array_size();
     int a[n];
     input_array(n ,a);
-    sum=sum_even_array(n ,a, sum);
-    output(sum);
+    sum=sum_n_array(n ,a);
+    output(n,a,sum);
     return 0;
 }
-int array_size()
+int input_array_size()
 {
     int n;
     printf("enter size of the array\n");
@@ -23,26 +23,25 @@ int array_size()
 }
 void input_array(int n, int a[n])
 {
-    printf("Enter the value of the array\n");
-
-    int  i=0;
-    for(i=0;i<n;i++)
+    printf("Enter the value of the array\n",n);
+    for(int i=0;i<n;i++)
     {
-        scanf("%d \n",&a[i]);
+        scanf("%d",&a[i]);
     }
 }
-int sum_even_array(int n, int a[n] , int sum)
+int sum_n_array(int n, int a[n])
 {
-    int i=0;
-    for(i=0;i<n;i++)
+    int sum = 0;
+    for (int i = 0; i < n; i++)
     {
-        sum = sum + a[i];
+        sum += a[i];
     }
     return sum;
 }
-void output(int sum)
+
+void output(int n, int a[n],int sum)
 {
-    printf("the sum of the values of the array %d + %d + %d  is %d", sum);
+    printf("the sum of the values of the array %d ", sum);
 }
 
 

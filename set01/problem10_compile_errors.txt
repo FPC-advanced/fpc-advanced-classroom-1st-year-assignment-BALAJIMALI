@@ -8,3 +8,66 @@ Compilation started at 11/6/2023, 10:11:14 AM
 Compilation finished at 11/6/2023, 10:11:15 AM
 Compilation started at 11/20/2023, 10:11:56 AM
 Compilation finished at 11/20/2023, 10:11:56 AM
+Compilation started at 11/20/2023, 10:28:54 AM
+Compilation finished at 11/20/2023, 10:28:54 AM
+Compilation started at 11/20/2023, 10:32:44 AM
+Compilation finished at 11/20/2023, 10:32:44 AM
+Compilation started at 11/20/2023, 10:34:14 AM
+c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem10.c: In function 'main':
+c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem10.c:10:23: warning: passing argument 1 of 'input_two_strings' makes pointer from integer without a cast [-Wint-conversion]
+     input_two_strings(string1,string2);
+                       ^~~~~~~
+c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem10.c:2:6: note: expected 'char *' but argument is of type 'char'
+ void input_two_strings(char *string1, char *string2);
+      ^~~~~~~~~~~~~~~~~
+c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem10.c:10:31: warning: passing argument 2 of 'input_two_strings' makes pointer from integer without a cast [-Wint-conversion]
+     input_two_strings(string1,string2);
+                               ^~~~~~~
+c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem10.c:2:6: note: expected 'char *' but argument is of type 'char'
+ void input_two_strings(char *string1, char *string2);
+      ^~~~~~~~~~~~~~~~~
+c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem10.c:11:26: warning: passing argument 1 of 'stringcompare' makes pointer from integer without a cast [-Wint-conversion]
+     result=stringcompare(string1,string2);
+                          ^~~~~~~
+c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem10.c:3:5: note: expected 'char *' but argument is of type 'char'
+ int stringcompare(char *string1, char *string2);
+     ^~~~~~~~~~~~~
+c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem10.c:11:34: warning: passing argument 2 of 'stringcompare' makes pointer from integer without a cast [-Wint-conversion]
+     result=stringcompare(string1,string2);
+                                  ^~~~~~~
+c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem10.c:3:5: note: expected 'char *' but argument is of type 'char'
+ int stringcompare(char *string1, char *string2);
+     ^~~~~~~~~~~~~
+c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem10.c:12:12: warning: passing argument 1 of 'output' makes pointer from integer without a cast [-Wint-conversion]
+     output(string1,string2,result);
+            ^~~~~~~
+c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem10.c:4:6: note: expected 'char *' but argument is of type 'char'
+ void output(char *string1, char *string2, int result);
+      ^~~~~~
+c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem10.c:12:20: warning: passing argument 2 of 'output' makes pointer from integer without a cast [-Wint-conversion]
+     output(string1,string2,result);
+                    ^~~~~~~
+c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem10.c:4:6: note: expected 'char *' but argument is of type 'char'
+ void output(char *string1, char *string2, int result);
+      ^~~~~~
+Compilation finished at 11/20/2023, 10:34:14 AM
+Compilation started at 11/20/2023, 10:34:56 AM
+Compilation finished at 11/20/2023, 10:34:57 AM
+Compilation started at 11/20/2023, 10:36:53 AM
+Compilation finished at 11/20/2023, 10:36:54 AM
+Compilation started at 11/20/2023, 10:39:08 AM
+Compilation finished at 11/20/2023, 10:39:09 AM
+Compilation started at 11/20/2023, 10:42:15 AM
+Compilation finished at 11/20/2023, 10:42:15 AM
+Compilation started at 11/20/2023, 10:42:35 AM
+Compilation finished at 11/20/2023, 10:42:35 AM
+Compilation started at 11/20/2023, 10:48:12 AM
+Compilation finished at 11/20/2023, 10:48:12 AM
+Compilation started at 11/26/2023, 11:29:23 AM
+Compilation finished at 11/26/2023, 11:29:23 AM
+Compilation started at 11/26/2023, 11:29:40 AM
+Compilation finished at 11/26/2023, 11:29:41 AM
+Compilation started at 11/26/2023, 11:29:58 AM
+Compilation finished at 11/26/2023, 11:29:59 AM
+Compilation started at 11/26/2023, 11:30:12 AM
+Compilation finished at 11/26/2023, 11:30:13 AM

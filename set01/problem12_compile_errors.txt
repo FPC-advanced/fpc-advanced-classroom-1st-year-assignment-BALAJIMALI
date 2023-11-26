@@ -6,3 +6,11 @@ C:\Users\DELL\AppData\Local\Temp\ccSe5LEx.o: In function `main':
 c:/Users/DELL/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-BALAJIMALI/set01/problem12.c:18: undefined reference to `get_n'
 collect2.exe: error: ld returned 1 exit status
 Compilation finished at 11/20/2023, 10:05:04 AM
+Compilation started at 11/26/2023, 11:31:15 AM
+c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem12.c:26:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ int_get_n()
+ ^~~~~~~~~
+C:\Users\DELL\AppData\Local\Temp\ccIQefh3.o: In function `main':
+c:/Users/DELL/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-BALAJIMALI/set01/problem12.c:18: undefined reference to `get_n'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/26/2023, 11:31:16 AM

@@ -6,3 +6,32 @@ Compilation started at 11/20/2023, 10:18:27 AM
 Compilation finished at 11/20/2023, 10:18:27 AM
 Compilation started at 11/20/2023, 10:18:59 AM
 Compilation finished at 11/20/2023, 10:18:59 AM
+Compilation started at 11/20/2023, 10:19:38 AM
+Compilation finished at 11/20/2023, 10:19:38 AM
+Compilation started at 11/20/2023, 10:20:17 AM
+Compilation finished at 11/20/2023, 10:20:18 AM
+Compilation started at 11/26/2023, 11:14:47 AM
+Compilation finished at 11/26/2023, 11:14:49 AM
+Compilation started at 11/26/2023, 11:16:01 AM
+Compilation finished at 11/26/2023, 11:16:01 AM
+Compilation started at 11/26/2023, 11:17:30 AM
+Compilation finished at 11/26/2023, 11:17:30 AM
+Compilation started at 11/26/2023, 11:21:48 AM
+c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem08.c: In function 'main':
+c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem08.c:10:7: warning: implicit declaration of function 'array_size' [-Wimplicit-function-declaration]
+     n=array_size();
+       ^~~~~~~~~~
+c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set01\problem08.c:13:9: warning: implicit declaration of function 'sum_even_array' [-Wimplicit-function-declaration]
+     sum=sum_even_array(n ,a, sum);
+         ^~~~~~~~~~~~~~
+C:\Users\DELL\AppData\Local\Temp\cccMzrT3.o: In function `main':
+c:/Users/DELL/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-BALAJIMALI/set01/problem08.c:10: undefined reference to `array_size'
+c:/Users/DELL/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-BALAJIMALI/set01/problem08.c:13: undefined reference to `sum_even_array'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/26/2023, 11:21:50 AM
+Compilation started at 11/26/2023, 11:26:00 AM
+Compilation finished at 11/26/2023, 11:26:00 AM
+Compilation started at 11/26/2023, 11:26:59 AM
+Compilation finished at 11/26/2023, 11:26:59 AM
+Compilation started at 11/26/2023, 11:27:26 AM
+Compilation finished at 11/26/2023, 11:27:27 AM
