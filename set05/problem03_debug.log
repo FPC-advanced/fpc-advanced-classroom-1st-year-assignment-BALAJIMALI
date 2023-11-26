@@ -1,0 +1,76 @@
++l
+10	Camel input();
+11	// float find_weight(Camel c);  //pass by value
+12	// //or
+13	void find_weight(Camel *c); //passing address variable
+14	void output(Camel c);
+15	 
+16	 int main()
+17	 {
+18	    Camel c;
+19	    c=input();
++b 14
+Breakpoint 1 at 0x40146e: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem03.c, line 14.
++b 31
+Breakpoint 2 at 0x401524: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem03.c, line 31.
++b 6
+Note: breakpoint 1 also set at pc 0x40146e.
+Breakpoint 3 at 0x40146e: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem03.c, line 6.
++b 36
+Breakpoint 4 at 0x401569: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem03.c, line 36.
++b 39
+Breakpoint 5 at 0x4015a0: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem03.c, line 39.
++ingo b
+Undefined command: "ingo".  Try "help".
++info b
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x0040146e in main 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem03.c:14
+2       breakpoint     keep y   0x00401524 in input 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem03.c:31
+3       breakpoint     keep y   0x0040146e in main 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem03.c:6
+4       breakpoint     keep y   0x00401569 in find_weight 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem03.c:36
+5       breakpoint     keep y   0x004015a0 in output 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem03.c:39
++r
+Starting program: c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05/./problem03.exe 
+[New Thread 15316.0x3cf8]
+[New Thread 15316.0x20b0]
+
+Breakpoint 1, main () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem03.c:19
+19	    c=input();
++n
+
+Breakpoint 2, input () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem03.c:31
+31	    scanf("%f",&a.length);
++n
+32	 }
++n
+main () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem03.c:20
+20	    find_weight(&c);
++n
+
+Breakpoint 4, find_weight (c=0x61ff10) at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem03.c:36
+36	    c->weight =pi * rad * sqrt(c->height * c->length);
++n
+37	 }
++n
+main () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem03.c:21
+21	    output(c);
++n
+
+Breakpoint 5, output (c=...) at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem03.c:39
+39	    printf("The weight of the camel with radius: %f,height :%f,lenght: %f is %f \n",c.radius,c.height,c.length,c.weight);
++n
+40	 }+cd "c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05"
+"c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05": Invalid argument.
++gcc -g "c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem03.c" -o "c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem03.exe" 2>&1
+Undefined command: "gcc".  Try "help".
++q
+A debugging session is active.
+
+	Inferior 1 [process 15316] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5

@@ -1,0 +1,52 @@
++l
+1	#include <stdio.h>
+2	
+3	int input_n();
+4	void input(int n, int a[n]);
+5	float odd_average(int n, int a[n]);
+6	void output(float avg);
+7	
+8	int main()
+9	{
+10	    int n;
++b 15
+Breakpoint 1 at 0x4014ef: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem06.c, line 15.
++b 30
+Breakpoint 2 at 0x401582: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem06.c, line 30.
++b 49
+Breakpoint 3 at 0x4015f4: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem06.c, line 49.
++info b'
+Args must be numbers or '$' variables.
++info b
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x004014ef in main 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem06.c:15
+2       breakpoint     keep y   0x00401582 in input 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem06.c:30
+3       breakpoint     keep y   0x004015f4 in output 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem06.c:49
++r
+Starting program: c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05/./problem06.exe 
+[New Thread 15164.0x3a34]
+[New Thread 15164.0xf14]
+
+Breakpoint 2, input (n=5, a=0x61fec8) at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem06.c:31
+31	}
++n
+main () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem06.c:14
+14	    float avg=odd_average(n,a);
++n
+
+Breakpoint 1, main () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem06.c:15
+15	    output(avg);
++n
+
+Breakpoint 3, output (avg=2.5) at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem06.c:49
+49	    printf("Average of all the odd elements is: %f",avg);
++n
+50	}+q
+A debugging session is active.
+
+	Inferior 1 [process 15164] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5

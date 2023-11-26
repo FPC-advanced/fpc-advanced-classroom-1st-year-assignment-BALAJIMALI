@@ -1,0 +1,71 @@
++l
+1	#include <stdio.h>
+2	
+3	void input_camel_details(float *radius, float *height, float *length);
+4	int find_mood(float radius, float height, float length);
+5	void output(float radius, float height, float length, int mood);
+6	
+7	int main()
+8	{
+9	    float radius,height,length;
+10	    input_camel_details(&radius,&height,&length);
++b 12
+Breakpoint 1 at 0x4014ac: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem04.c, line 12.
++b 21
+Breakpoint 2 at 0x401529: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem04.c, line 21.
++b 28
+Breakpoint 3 at 0x401567: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem04.c, line 28.
++b 39
+Breakpoint 4 at 0x4015b1: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem04.c, line 39.
++b 58
+Breakpoint 5 at 0x4015d0: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem04.c, line 58.
++info b
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x004014ac in main 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem04.c:12
+2       breakpoint     keep y   0x00401529 in input_camel_details 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem04.c:21
+3       breakpoint     keep y   0x00401567 in find_mood 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem04.c:28
+4       breakpoint     keep y   0x004015b1 in find_mood 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem04.c:39
+5       breakpoint     keep y   0x004015d0 in output 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem04.c:58
++r
+Starting program: c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05/./problem04.exe 
+[New Thread 4084.0x2d08]
+[New Thread 4084.0x1268]
+
+Breakpoint 2, input_camel_details (radius=0x61ff18, height=0x61ff14, length=0x61ff10)
+    at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem04.c:21
+21	    scanf("%f",length);   
++4
+Undefined command: "4".  Try "help".
++n
+22	}
++n
+main () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem04.c:11
+11	    int mood = find_mood(radius,height,length);
++n
+
+Breakpoint 3, find_mood (radius=5, height=2, length=5.88704543e-039)
+    at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem04.c:29
+29	    else if(height < radius && height < length)
++n
+33	    else if(length < radius && length < height)
++n
+35	        return 2;
++n
+41	}
++n
+
+Breakpoint 1, main () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem04.c:12
+12	    output(radius,length,height,mood);
++n
+13	}
++q
+A debugging session is active.
+
+	Inferior 1 [process 4084] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
