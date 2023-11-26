@@ -1,0 +1,17 @@
++l
+1	#include <stdio.h>
+2	
+3	int input_number();
+4	int is_prime(int n);
+5	void output(int n, int result);
+6	
+7	int main(){
+8	  int n,result;
+9	  n=input_number();
+10	  result = is_prime(n);
++b 11
+Breakpoint 1 at 0x401487: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem03.c, line 11.
++b 25
+Breakpoint 2 at 0x4014e2: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem03.c, line 25.
++b 35
+Breakpoint 3 at 0x401502: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem03.c, line 35.
