@@ -15,3 +15,59 @@ Breakpoint 1 at 0x401487: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-a
 Breakpoint 2 at 0x4014e2: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem03.c, line 25.
 +b 35
 Breakpoint 3 at 0x401502: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem03.c, line 35.
++b 44
+Breakpoint 4 at 0x401526: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem03.c, line 44.
++info b
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x00401487 in main 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem03.c:11
+2       breakpoint     keep y   0x004014e2 in is_prime 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem03.c:25
+3       breakpoint     keep y   0x00401502 in is_prime 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem03.c:35
+4       breakpoint     keep y   0x00401526 in output 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem03.c:44
++r
+Starting program: C:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03/./problem03.exe 
+[New Thread 15216.0xf08]
+[New Thread 15216.0x100]
+
+Breakpoint 2, is_prime (n=2) at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem03.c:26
+26	        if(n%i==0)
++n
+28	            result++;
++n
+24	    for(int i=1;i<=n;i++)
++;n
+Undefined command: "".  Try "help".
++n
+
+Breakpoint 2, is_prime (n=2) at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem03.c:26
+26	        if(n%i==0)
++n
+28	            result++;
++n
+24	    for(int i=1;i<=n;i++)
++n
+
+Breakpoint 3, is_prime (n=2) at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem03.c:35
+35	    return result;
++n
+36	}
++n
+
+Breakpoint 1, main () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem03.c:11
+11	  output(n,result);
++n
+
+Breakpoint 4, output (n=2, result=2) at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem03.c:45
+45	}
++n
+main () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem03.c:12
+12	}
++q
+A debugging session is active.
+
+	Inferior 1 [process 15216] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
