@@ -13,7 +13,7 @@ void output(float x1, float y1, float x2, float y2, float distance);
 ```
 1 1
 2 2
-```
+``
 
 ***Output***
 ```

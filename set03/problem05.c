@@ -10,7 +10,7 @@ int main(){
     n=input_array_size();
     int a[n];
     int_array(n,a);
-    erotosthenes_sieve(n,a);
+    erotosthenes_sieve(n,a); 
     output(n,a);
     return 0;
 }

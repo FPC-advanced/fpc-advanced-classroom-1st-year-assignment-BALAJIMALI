@@ -16,3 +16,12 @@ C:\Users\DELL\AppData\Local\Temp\ccao2o5R.o: In function `main':
 c:/Users/DELL/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-BALAJIMALI/set03/problem05.c:12: undefined reference to `int_array'
 collect2.exe: error: ld returned 1 exit status
 Compilation finished at 11/18/2023, 1:18:15 PM
+Compilation started at 11/26/2023, 12:03:23 PM
+c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem05.c: In function 'main':
+c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem05.c:12:5: warning: implicit declaration of function 'int_array' [-Wimplicit-function-declaration]
+     int_array(n,a);
+     ^~~~~~~~~
+C:\Users\DELL\AppData\Local\Temp\ccAccJE2.o: In function `main':
+c:/Users/DELL/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-BALAJIMALI/set03/problem05.c:12: undefined reference to `int_array'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/26/2023, 12:03:23 PM

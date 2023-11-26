@@ -1,0 +1,54 @@
++l
+2	
+3	void input_string(char* a, char* b);
+4	int sub_str_index(char* string, char* substring);
+5	void output(char *string, char *substring, int index);
+6	
+7	int main()
+8	{
+9	    char a[100],b[100];
+10	    int index;
+11	    input_string(a,b);
++b 13
+Breakpoint 1 at 0x4014a0: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem06.c, line 13.
++b 27
+Breakpoint 2 at 0x40152f: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem06.c, line 27.
++b 40
+Breakpoint 3 at 0x4015a4: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem06.c, line 40.
++b 51
+Breakpoint 4 at 0x4015d0: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem06.c, line 51.
++info b
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x004014a0 in main 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem06.c:13
+2       breakpoint     keep y   0x0040152f in sub_str_index 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem06.c:27
+3       breakpoint     keep y   0x004015a4 in sub_str_index 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem06.c:40
+4       breakpoint     keep y   0x004015d0 in output 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem06.c:51
++r
+Starting program: c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03/./problem06.exe 
+[New Thread 4232.0x3758]
+[New Thread 4232.0x16c8]
+
+Breakpoint 2, sub_str_index (string=0x61feb8 "helloworldhello", substring=0x61fe54 "world")
+    at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem06.c:27
+27	    for(int i=0,k=0;string[i]!='\0';i++)
++n
+29	        int a=0;
++n
+30	        if(substring[k]==string[i])
++n
+
+Breakpoint 3, sub_str_index (string=0x61feb8 "helloworldhello", substring=0x61fe54 "world")
+    at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem06.c:42
+42	        if(m==a)
++n
+27	    for(int i=0,k=0;string[i]!='\0';i++)
++q
+A debugging session is active.
+
+	Inferior 1 [process 4232] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
