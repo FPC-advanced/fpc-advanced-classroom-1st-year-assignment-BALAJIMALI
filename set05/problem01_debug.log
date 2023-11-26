@@ -83,3 +83,68 @@ A debugging session is active.
 	Inferior 1 [process 5420] will be killed.
 
 Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
++l
+11	 
+12	 point input();
+13	 void dist(point a, point b,float *res);
+14	 void output( point a, point b, float res);
+15	
+16	 int main()
+17	 {
+18	    point a,b;
+19	    float res;
+20	    printf("Enter the first point coordinates\n");
++b 14
+Breakpoint 1 at 0x40146e: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem01.c, line 14.
++b 24
+Breakpoint 2 at 0x4014c0: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem01.c, line 24.
++b 39
+Breakpoint 3 at 0x40156a: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem01.c, line 39.
++b 43
+Breakpoint 4 at 0x401594: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem01.c, line 43.
++info b
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x0040146e in main 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem01.c:14
+2       breakpoint     keep y   0x004014c0 in main 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem01.c:24
+3       breakpoint     keep y   0x0040156a in dist 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem01.c:39
+4       breakpoint     keep y   0x00401594 in output 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem01.c:43
++r
+Starting program: C:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05/./problem01.exe 
+[New Thread 14932.0x3294]
+[New Thread 14932.0x108c]
+
+Breakpoint 1, main () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem01.c:20
+20	    printf("Enter the first point coordinates\n");
++n
+21	    a=input();
++n
+22	    b=input();
++n
+23	    dist(a,b,&res);
++n
+
+Breakpoint 3, dist (a=..., b=..., res=0x61ff0c)
+    at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem01.c:39
+39	    *res =sqrt (( dx *dx) +(dy * dy ));
++n
+40	 }
++n
+
+Breakpoint 2, main () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem01.c:24
+24	    output(a,b,res);
++n
+
+Breakpoint 4, output (a=..., b=..., res=0)
+    at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set05\problem01.c:43
+43	    printf("THe Distance betwwen (%f,%f) and (%f ,%f) is %f",a.x,a.y,b.x,b.y,res);
++n
+44	}+q
+A debugging session is active.
+
+	Inferior 1 [process 14932] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
