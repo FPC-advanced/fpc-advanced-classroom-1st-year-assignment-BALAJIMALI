@@ -1,0 +1,99 @@
++l
+1	#include<stdio.h>
+2	
+3	int input();
+4	int find_fibo(int n);
+5	void output(int n, int fibo);
+6	int main(){
+7	   int n,fibo;
+8	   n=input();
+9	   fibo=find_fibo(n);
+10	   output(n,fibo);
++b 15
+Breakpoint 1 at 0x4014a8: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem04.c, line 15.
++b 17
+Breakpoint 2 at 0x4014c7: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem04.c, line 17.
++b 20
+Breakpoint 3 at 0x4014d7: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem04.c, line 20.
++b 26
+Breakpoint 4 at 0x401560: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem04.c, line 26.
++b 29
+Breakpoint 5 at 0x401576: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem04.c, line 29.
++info b
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x004014a8 in input 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem04.c:15
+2       breakpoint     keep y   0x004014c7 in input 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem04.c:17
+3       breakpoint     keep y   0x004014d7 in find_fibo 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem04.c:20
+4       breakpoint     keep y   0x00401560 in find_fibo 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem04.c:26
+5       breakpoint     keep y   0x00401576 in output 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem04.c:29
++r
+Starting program: C:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03/./problem04.exe 
+[New Thread 14876.0x3b90]
+[New Thread 14876.0x1ab0]
+
+Breakpoint 1, input () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem04.c:15
+15	  printf("Enter the nth number you want in fibonacci series : \n");
++n
+16	  scanf("%d",&x);
++5
+Undefined command: "5".  Try "help".
++n
+
+Breakpoint 2, input () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem04.c:17
+17	  return x;
++n
+18	}
++n
+main () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem04.c:9
+9	   fibo=find_fibo(n);
++n
+
+Breakpoint 3, find_fibo (n=6422476) at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem04.c:20
+20	     int a[n];
++n
+
+Program received signal SIGSEGV, Segmentation fault.
+__chkstk_ms () at ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S:172
+172	../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S: No such file or directory.
++r
+The program being debugged has been started already.
+Start it from the beginning? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
+Starting program: C:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03/./problem04.exe 
+[New Thread 12952.0xf50]
+[New Thread 12952.0x19f0]
+
+Breakpoint 1, input () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem04.c:15
+15	  printf("Enter the nth number you want in fibonacci series : \n");
++5
+Undefined command: "5".  Try "help".
++n
+16	  scanf("%d",&x);
++n
+
+Breakpoint 2, input () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem04.c:17
+17	  return x;
++n
+18	}
++n
+main () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem04.c:9
+9	   fibo=find_fibo(n);
++n
+
+Breakpoint 3, find_fibo (n=6422476) at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set03\problem04.c:20
+20	     int a[n];
++n
+
+Program received signal SIGSEGV, Segmentation fault.
+__chkstk_ms () at ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S:172
+172	../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S: No such file or directory.
++q
+A debugging session is active.
+
+	Inferior 1 [process 12952] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
