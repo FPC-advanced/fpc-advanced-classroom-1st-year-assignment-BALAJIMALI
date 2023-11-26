@@ -1,0 +1,86 @@
++l
+1	#include<stdio.h>
+2	
+3	void input(int *num1, int *den1, int *num2, int *den2);
+4	void add(int num1, int den1, int num2, int den2, int *res_num, int *res_den);
+5	void output(int num1, int den1, int num2, int den2, int res_num, int res_den);
+6	
+7	int main() {
+8	    int num1, den1, num2, den2, res_num, res_den;
+9	    input(&num1, &den1, &num2, &den2);
+10	    add(num1, den1, num2, den2, &res_num, &res_den);
++b 11
+Breakpoint 1 at 0x4014c9: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem01.c, line 11.
++b 25
+Breakpoint 2 at 0x40157c: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem01.c, line 25.
++b 34
+Breakpoint 3 at 0x4015ef: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem01.c, line 34.
++b 43
+Breakpoint 4 at 0x40164d: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem01.c, line 43.
++b 45
+Note: breakpoint 4 also set at pc 0x40164d.
+Breakpoint 5 at 0x40164d: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem01.c, line 45.
++info b
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x004014c9 in main 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem01.c:11
+2       breakpoint     keep y   0x0040157c in add 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem01.c:25
+3       breakpoint     keep y   0x004015ef in add 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem01.c:34
+4       breakpoint     keep y   0x0040164d in output 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem01.c:43
+5       breakpoint     keep y   0x0040164d in output 
+                                           at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem01.c:45
++r
+Starting program: C:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04/./problem01.exe 
+[New Thread 8348.0x3378]
+[New Thread 8348.0x2a80]
+
+Breakpoint 2, add (num1=1, den1=2, num2=1, den2=2, res_num=0x61fefc, res_den=0x61fef8)
+    at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem01.c:25
+25	    *res_den = den1 * den2;
++n
+27	    if (*res_num > *res_den) {
++n
+
+Breakpoint 3, add (num1=1, den1=2, num2=1, den2=2, res_num=0x61fefc, res_den=0x61fef8)
+    at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem01.c:35
+35	        for (int i = 1; i <= *res_num; i++) {
++n
+36	            if (*res_num % i == 0 && *res_den % i == 0) {
++n
+37	                *res_num = *res_num / i;
++n
+38	                *res_den = *res_den / i;
++n
+35	        for (int i = 1; i <= *res_num; i++) {
++n
+36	            if (*res_num % i == 0 && *res_den % i == 0) {
++n
+37	                *res_num = *res_num / i;
++n
+38	                *res_den = *res_den / i;
++n
+35	        for (int i = 1; i <= *res_num; i++) {
++nn
+Undefined command: "nn".  Try "help".
++n
+42	}
++n
+
+Breakpoint 1, main () at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem01.c:11
+11	    output(num1, den1, num2, den2, res_num, res_den);
++n
+
+Breakpoint 4, output (num1=1, den1=2, num2=1, den2=2, res_num=2, res_den=2)
+    at c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem01.c:45
+45	    printf("%d/%d + %d/%d = %d/%d\n", num1, den1, num2, den2, res_num, res_den);
++n
+46	}
++q
+A debugging session is active.
+
+	Inferior 1 [process 8348] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5

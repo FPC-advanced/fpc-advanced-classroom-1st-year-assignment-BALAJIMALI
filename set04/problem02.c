@@ -18,6 +18,7 @@ int main()
     int n;
     n=input_n();
     Fraction f[n];
+
     input_n_fractions(n,f);
     Fraction sum=add_n_fractions(n,f);
     output(n,f,sum);
