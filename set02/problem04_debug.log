@@ -1,0 +1,21 @@
++l
+1	#include<stdio.h>
+2	int input_array_size();
+3	void input_array(int n, int a[n]);
+4	int sum_composite_numbers(int n, int a[n]);
+5	void output(int sum);
+6	int main()
+7	{
+8	int n, sum;
+9	    n = input_array_size();
+10	    int a[n];
++b 15
+Breakpoint 1 at 0x401508: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem04.c, line 15.
++b 32
+Breakpoint 2 at 0x40157f: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem04.c, line 32.
++b 37
+Breakpoint 3 at 0x40158f: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem04.c, line 37.
++b 42
+Breakpoint 4 at 0x4015d5: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem04.c, line 42.
++b 46
+Breakpoint 5 at 0x4015e0: file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem04.c, line 46.
