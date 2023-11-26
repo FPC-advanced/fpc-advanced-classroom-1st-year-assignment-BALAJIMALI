@@ -7,3 +7,29 @@ C:\Users\DELL\AppData\Local\Temp\ccTfei69.o: In function `sum_composite_numbers'
 c:/Users/DELL/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-BALAJIMALI/set02/problem04.c:30: undefined reference to `is_composite'
 collect2.exe: error: ld returned 1 exit status
 Compilation finished at 10/30/2023, 10:14:50 AM
+Compilation started at 11/26/2023, 11:48:07 AM
+c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem04.c: In function 'sum_composite_numbers':
+c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem04.c:30:13: warning: implicit declaration of function 'is_composite' [-Wimplicit-function-declaration]
+         if (is_composite(a[i])) {
+             ^~~~~~~~~~~~
+C:\Users\DELL\AppData\Local\Temp\ccQUkzG2.o: In function `sum_composite_numbers':
+c:/Users/DELL/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-BALAJIMALI/set02/problem04.c:30: undefined reference to `is_composite'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/26/2023, 11:48:08 AM
+Compilation started at 11/26/2023, 11:53:05 AM
+c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem04.c: In function 'sum_composite_numbers':
+c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set02\problem04.c:35:13: warning: implicit declaration of function 'is_composite' [-Wimplicit-function-declaration]
+         if (is_composite(a[i])) {
+             ^~~~~~~~~~~~
+C:\Users\DELL\AppData\Local\Temp\cc8End4i.o: In function `sum_composite_numbers':
+c:/Users/DELL/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-BALAJIMALI/set02/problem04.c:35: undefined reference to `is_composite'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/26/2023, 11:53:06 AM
+Compilation started at 11/26/2023, 11:54:50 AM
+Compilation finished at 11/26/2023, 11:54:51 AM
+Compilation started at 11/26/2023, 11:55:46 AM
+Compilation finished at 11/26/2023, 11:55:47 AM
+Compilation started at 11/26/2023, 11:56:46 AM
+Compilation finished at 11/26/2023, 11:56:46 AM
+Compilation started at 11/26/2023, 11:57:31 AM
+Compilation finished at 11/26/2023, 11:57:32 AM

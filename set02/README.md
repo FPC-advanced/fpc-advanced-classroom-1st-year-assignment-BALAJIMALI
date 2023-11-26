@@ -83,7 +83,7 @@ void output(int sum);
 ***Input***
 ```
 1 2 7 8 12
-```
+```he
 
 ***Output***
 ```
