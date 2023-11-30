@@ -26,7 +26,7 @@ pt input_point()
     printf("Enter the coordinates of point (x,y):");
     scanf("%f %f", &p.x,&p.y);
     return p;
-}
+} 
 int input_polygon(pl *p)
 {
   printf("Please enter the number of sides :");
