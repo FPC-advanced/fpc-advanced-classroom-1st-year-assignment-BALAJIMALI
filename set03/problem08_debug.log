@@ -1,0 +1,12 @@
++l
+warning: Source file is more recent than executable.
+47	        perimeter += find_distance(p->p[i], p->p[next_index]);
+48	    }
+49	    p->perimeter = perimeter;
+50	}
+51	void output(pl p) {
+52	    printf("Perimeter of the polygon: %.2f\n", p.perimeter);
+53	}
+54	int main() {
+55	    pl polygon;
+56	    input_polygon(&polygon);
