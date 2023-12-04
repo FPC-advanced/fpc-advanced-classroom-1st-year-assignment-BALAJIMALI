@@ -1,2 +1,6 @@
 Compilation started at 12/4/2023, 6:47:46 PM
 Compilation finished at 12/4/2023, 6:47:47 PM
+Compilation started at 12/4/2023, 6:48:08 PM
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem05.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 12/4/2023, 6:48:08 PM
