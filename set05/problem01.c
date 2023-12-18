@@ -31,7 +31,6 @@ typedef struct  _point point;
     printf("Enter the x-coordinate : \n");
     scanf("%f",&a.x);
     printf("Enter the y-coordinate : \n");
-    scanf("Enter the y coordinate : \n");
     scanf("%f",&a.y);
     return a;
  }
