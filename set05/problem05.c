@@ -1,3 +1,4 @@
+//  Write a program to find borga(x) given x.
 
 #include <stdio.h>
 #include <math.h>
