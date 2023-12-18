@@ -1,4 +1,5 @@
-//
+//Write a program to find out the mood of a Camel.
+
 #include <stdio.h>
 
 void input_camel_details(float *radius, float *height, float *length);
