@@ -1,3 +1,4 @@
+//Write a program to reverse a string.
 #include<stdio.h>
 void input_string(char *a);
 void str_reverse(char *str, char *rev_str);
@@ -18,10 +19,7 @@ void input_string(char *a)
 }
 void str_reverse(char *str, char *rev_str){
   int length =0;
-  for (int i = 0; str[i] != '\0';i++)
- {
-    length++;
- }
+  for (length = 0; str[length] != '\0';length++);
  int start = 0;
  int end = length - 1;
   

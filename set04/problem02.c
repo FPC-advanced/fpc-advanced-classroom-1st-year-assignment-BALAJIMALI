@@ -60,7 +60,6 @@ int find_gcd(int a, int b)
         if(c==0)
         {
            return b;
-           break;
         }
         else
         {

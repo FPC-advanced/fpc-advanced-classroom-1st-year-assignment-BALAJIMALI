@@ -1,3 +1,5 @@
+//  Write a program to find if a triangle is scalene.s
+
 #include<stdio.h>
 int input_side();
 int check_scalene(int a, int b, int c);
@@ -6,6 +8,7 @@ int main ()
 {
     int a,b,c,isscalene;
     a=input_side();
+    
     b=input_side();
     c=input_side();
     isscalene=check_scalene(a,b,c);

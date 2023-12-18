@@ -16,7 +16,7 @@ int input_degree() {
 
 void input_coefficients(int n, float a[n]) {
     printf("Enter the coefficients of the polynomial from highest degree to constant term:\n");
-    for (int i = 0; i <= n; i++) {
+    for (int i = 0; i < n; i++) {
         printf("Coefficient of x^%d: ", n - i);
         scanf("%f", &a[i]);
     }
@@ -47,9 +47,11 @@ void output(int n, float a[n], float x, float result) {
         } else {
             printf("%.2fx^%d + ", a[i], n - i);
         }
+            
     }
     printf(" evaluated at x = %.2f is %.2f.\n", x, result);
 }
+
 int main() {
     int n = input_degree();
     float a[n];

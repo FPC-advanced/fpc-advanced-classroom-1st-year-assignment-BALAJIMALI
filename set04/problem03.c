@@ -21,23 +21,17 @@ void input_n_and_r(int *n, int *r)
 }
 int nCr(int n, int r)
 {
-    int a=1,b=1,c=1,i,j,k;
-    for(i=1;i<=n;i++)
+   if(n < r || n < 0 || r < 0)
+   {
+    return 0;
+   }
+    if (r == 0 || r == n)
     {
-        a=i*a;
+        return 1;
     }
-    for(j=1;j<=r;j++)
-    {
-       b=j*b; 
-    }
-    for(k=1;k<=n-r;k++)
-    {
-        c=c*k;
-    }
-    int d=b*c;
-    int result=a/d;
-    return result;
+   return nCr (n - 1, r -1) + nCr(n-1,r);
 }
+
 void output(int n, int r, int result)
 {
     printf("for n = %d and r = %d, nCr = %d \n",n,r,result);

@@ -30,17 +30,17 @@ float factorial(float z)
 }
 float borga_x(int x)
 {
-    float result=1,term=1;
-    int num;
-    float den=1;
-    int i=1;
-    while(result>0.000001)
+    float result = 1.0;
+    float term = 1.0;
+    int n = 1.0;
+
+    while (term >= 0.000001) 
     {
-        term=(float)pow(x,i)/factorial(den);
-        result=result + term;
-        i++;
-        den+=2;
+        term *= (float)(x) / ((2 * n) * (2 * n + 1));
+        result += term;
+        n++;
     }
+
     return result;
 }
 void output(int x, float result)

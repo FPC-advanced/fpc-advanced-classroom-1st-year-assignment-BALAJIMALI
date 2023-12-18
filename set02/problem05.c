@@ -1,3 +1,4 @@
+//Write a program to find GCD _(HCF)_ of two numbers.
 #include <stdio.h>
 
 int input();

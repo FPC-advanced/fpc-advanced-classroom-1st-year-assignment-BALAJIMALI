@@ -1,2 +1,18 @@
 Compilation started at 12/4/2023, 6:50:37 PM
 Compilation finished at 12/4/2023, 6:50:38 PM
+Compilation started at 12/5/2023, 12:58:19 PM
+Compilation finished at 12/5/2023, 12:58:19 PM
+Compilation started at 12/5/2023, 1:03:15 PM
+Compilation finished at 12/5/2023, 1:03:15 PM
+Compilation started at 12/5/2023, 1:05:11 PM
+Compilation finished at 12/5/2023, 1:05:11 PM
+Compilation started at 12/5/2023, 1:06:24 PM
+Compilation finished at 12/5/2023, 1:06:24 PM
+Compilation started at 12/5/2023, 1:13:17 PM
+c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem04.c: In function 'output':
+c:\Users\DELL\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BALAJIMALI\set04\problem04.c:65:1: error: expected declaration or statement at end of input
+ }
+ ^
+Compilation finished at 12/5/2023, 1:13:17 PM
+Compilation started at 12/5/2023, 1:13:56 PM
+Compilation finished at 12/5/2023, 1:13:57 PM
